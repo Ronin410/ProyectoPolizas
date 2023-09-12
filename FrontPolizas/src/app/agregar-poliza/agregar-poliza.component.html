@@ -1,0 +1,42 @@
+<div class="age">
+    <div class="agregar-poliza">
+        <h3>Agregar Nueva Poliza </h3>
+    </div>
+    <div class="input-agregar">
+        <p>Empleado: </p>
+        <select id="idEmpleado" name="select" class="select-empleado">
+            <option *ngFor="let empleado of empleadosData" value="empleado.idempleado" [value]="empleado.idempleado">{{ empleado.idempleado+" - "+empleado.nombre +" "+ empleado.apellido }}</option>
+      </select>
+      
+    </div>
+    <div class="input-agregar">
+        <p>Sku: </p> 
+         <select [(ngModel)]="sku" name="select" class="select-sku" id="sku">
+                <option *ngFor="let articulo of inventario" value="articulo.Sku" [value]="articulo.Sku">{{ articulo.Sku+" - "+" "+ articulo.DescripcionArticulo }}</option>
+          </select>
+    </div>
+    <div class="input-agregar">
+        <p>Cantidad:</p> <input id="cantidad" type="text" name="cantidad"   maxlength="9"
+        oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" placeholder="Ingrese la cantidad del producto"
+        (keypress)="onKeypressEvent($event)">
+
+    </div>
+    <div class="input-agregar">
+        <p> Nombre Cliente:  </p>   <input id="nombre-cliente" name="nombre-cliente" maxlength="50" placeholder="Ingrese el nombre del cliente"
+        (keypress)="onKeypressEvent($event)">
+    </div>
+    <div *ngIf="vacios == true" >
+        <label class="textInfo">Faltan campos por llenar</label>
+    </div> 
+
+    <div class="contenedor-buttons">    
+        <div class="buttons-Guardar">
+            <button (click)="guardarPoliza()">Guardar</button>
+            <button (click)="CerrarDialog()" >Cancelar</button>
+        </div>
+    </div>    
+</div>
+
+<div *ngIf="error" class="alert alert-success">
+    {{ errorMessage }}
+  </div>

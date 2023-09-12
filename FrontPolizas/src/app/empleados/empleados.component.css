@@ -1,0 +1,89 @@
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f5f7f9;
+  position: relative;
+
+}
+
+table {
+  width: 800px;
+  background-color: #fff;
+  box-shadow: 4px 6px 21px -9px rgba(0, 0, 0, 0.64);
+  -webkit-box-shadow: 4px 6px 21px -9px rgba(0, 0, 0, 0.64);
+  -moz-box-shadow: 4px 6px 21px -9px rgba(0, 0, 0, 0.64);
+  border-collapse: collapse;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+table thead {
+  text-align: justify;
+  background-color: #f5f7f9;
+}
+
+table th {
+  font-size: 12px;
+}
+
+table th,
+table td {
+  padding: 1rem;
+}
+
+table td {
+  font-weight: 400;
+  font-size: 12px;
+  color: #727272;
+}
+
+.table-hover {
+  transition: 0.5s ease;
+}
+
+.table-hover:hover {
+  background-color: #000;
+}
+
+.seccion-empleados h2 {
+  margin-bottom: 1.5rem;
+}
+
+.seccion-empleados h2 span {
+  font-weight: 300;
+}
+
+.dialogo{
+  /*height: 70%;*/
+  width: 35%;
+  margin-left: 32%; 
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border-color: white;
+
+  background-color: #fff;
+  box-shadow: 9px 16px 31px -19px rgba(0, 0, 0, 0.64);
+  -webkit-box-shadow: 4px 6px 21px -9px rgba(0, 0, 0, 0.64);
+  -moz-box-shadow: 4px 6px 21px -9px rgba(0, 0, 0, 0.64);
+  border-collapse: collapse;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.diPolizas{
+  height: 95vh;
+} 
+
+.buttons-Guardar{
+  margin-top: 20px;
+  width: 150px;
+  height: 55px;
+  border-radius: 10px;
+  border: solid green 2px;
+  cursor: pointer;
+
+}
