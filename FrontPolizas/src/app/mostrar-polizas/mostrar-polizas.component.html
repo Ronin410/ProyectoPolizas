@@ -1,0 +1,38 @@
+
+    <div>
+      <h1>Polizas</h1>
+    </div>
+    <section class="section2" *ngIf="polizasData" style=" display: flex;
+    min-height: 293px;
+    max-height: 90%;
+    flex-direction: column;">
+      <section class="tarjetas-polizas">  
+        <div *ngIf="polizasData.length > 0; else notiene">
+          <div class="tarjeta-poliza" *ngFor="let poliza of polizasData">
+            <div class="tarjeta-poliza-header">
+              <h4 class="id-poliza">ID Poliza: {{ poliza.IdPoliza }}</h4>
+              <hr />
+            </div>
+            <div class="tarjeta-poliza-body">
+              <p class="empleado-poliza">Empleado: {{ poliza.EmpleadoGenero }}</p>
+              <p class="sku-poliza">Sku: {{ poliza.Sku }}</p>
+              <p class="cantidad-poliza">Cantidad: {{ poliza.Cantidad }}</p>
+              <p class="nombre-cliente">Cliente: {{ poliza.NombreCliente }}</p>
+              <p class="fecha-poliza">Fecha: {{ poliza.Fechamovto }}</p>
+            </div>
+            <p>{{idEmpleado}}</p>
+            <img class="boton-el-mod" src="./assets/eliminar.png" (click)="eliminarPoliza(poliza.IdPoliza, poliza.EmpleadoGenero)">
+           <img class="boton-el-mod" src="./assets/modificar.png" (click)="modificarPoliza(poliza)">
+          </div>
+      </div>
+      <ng-template #notiene>
+        <p>El empleado no tiene polizas registradas</p>
+      </ng-template>
+
+      </section>
+      <div class="buttons-Guardar">
+        <button (click)="CerrarDialog()" >Cancelar</button>
+    </div>  
+  
+    </section>
+  
