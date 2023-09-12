@@ -1,0 +1,68 @@
+.agregar-poliza{
+
+
+}
+
+.agregar-poliza input{
+
+}
+
+.input-agregar{
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.age{
+}
+
+.input-agregar input{
+    width: 80%;
+}
+
+.buttons-Guardar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    height: 100px;
+    width: 50%;
+    
+    color: #333;    
+}
+.buttons-Guardar button{
+  margin: 4%;
+
+  cursor: pointer;
+  margin-top: 20px;
+  width: 150px;
+  height: 55px;
+  border-radius: 10px;
+  border: solid green 2px;
+}
+
+.contenedor-buttons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.select-empleado{
+    width: 80%;
+}
+
+.select-sku{
+    width: 80%;
+}
+
+.textInfo{
+    color: red;
+    font-size: small;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+     align-content: center;
+}

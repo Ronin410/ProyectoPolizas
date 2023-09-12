@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Polizas</title>
+  </head>
+  <body>
+
+    
+    <section class="polizas-section" *ngIf="polizasData">
+      <section class="tarjetas-polizas">  
+        <div class="tarjeta-poliza" *ngFor="let poliza of polizasData">
+          <div class="tarjeta-poliza-header">
+            <h4 class="id-poliza">ID Poliza: {{ poliza.IdPoliza }}</h4>
+            <hr />
+          </div>
+          <div class="tarjeta-poliza-body">
+            <p class="empleado-poliza">Empleado: {{ poliza.EmpleadoGenero }}</p>
+            <p class="sku-poliza">Sku: {{ poliza.Sku }}</p>
+            <p class="cantidad-poliza">Cantidad: {{ poliza.Cantidad }}</p>
+            <p class="nombre-cliente">Cliente: {{ poliza.NombreCliente }}</p>
+            <p class="fecha-poliza">Fecha: {{ poliza.Fechamovto }}</p>
+          </div>
+          <img class="boton-el-mod" src="./assets/eliminar.png" (click)="eliminarPoliza(poliza.IdPoliza, poliza.EmpleadoGenero)">
+          <img class="boton-el-mod" src="./assets/modificar.png" (click)="modificarPoliza(poliza.IdPoliza)">
+        </div>
+      </section>
+    </section>
+   
+
+  </body>
+ 
+</html>
