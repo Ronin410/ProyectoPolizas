@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyeto Polizas</title>
+  </head>
+  <body>
+    
+    <section class="seccion-empleados" id="empleados">
+      <div class="seccion-header">
+        <h2>
+          Empleados
+        </h2>
+      </div>
+
+      <section class="seccion-empleados-body">
+        <table class="seccion empleados-tabla">
+          <thead>
+            <tr>
+              <th>Nombre</th>
+              <th>Apellido</th>
+              <th>Puesto</th>
+              <th>Id</th>
+            </tr>
+          </thead>
+
+          <tbody *ngFor="let empleado of empleadosData">
+            <tr
+              (click)= "mostrarPolizas(empleado.idempleado)"
+              class="table-hover"
+            >
+              <td>{{ empleado.nombre }}</td>
+              <td>{{ empleado.apellido }}</td>
+              <td>{{ empleado.puesto }}</td>
+              <td>{{ empleado.idempleado }}</td>
+            </tr>
+          </tbody>
+        </table>
+      
+      </section>
+<!-- <div *ngIf="mostrar">
+        <app-mostrar-polizas [idEmpleado]="idEmpleadoBuscar"></app-mostrar-polizas>
+      </div>
+-->
+    </section>
+
+    <dialog #myDialogPolizas class="dialogo diPolizas" id="dialogPolizas">
+        <app-mostrar-polizas [polizasData]="polizasData"></app-mostrar-polizas>
+    </dialog>
+
+    <dialog #myDialog class="dialogo">
+      <app-agregar-poliza [empleadosData]="empleadosData"> </app-agregar-poliza>
+    </dialog>
+
+    <dialog #myDialogModificar class="dialogo">
+      <app-modificar-poliza [idpoliza]="idpoliza" [empleadoGenero] = "empleadoGenero"
+        [sku] = "sku" [cantidad] = "cantidad" [nombreCliente] = "nombreCliente" 
+        [empleadosData]="empleadosData" [modificando]="modificando"> 
+      </app-modificar-poliza>
+    </dialog>
+    
+    
+    <section class="seccion-polizas"><router-outlet></router-outlet></section>
+      <button (click)="AbrirDialog()" id="buttonAgregar" class="buttons-Guardar"> Agregar Poliza</button>
+  </body>
