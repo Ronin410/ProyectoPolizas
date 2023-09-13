@@ -2,7 +2,6 @@ package main
 
 import (
 	"encoding/json"
-	"fmt"
 	"io/ioutil"
 	"log"
 	"net/http"
@@ -53,8 +52,6 @@ func CORS(next http.Handler) http.Handler {
 		(w).Header().Set("Access-Control-Allow-Headers", "Accept, Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization")
 		(w).Header().Set("Access-Control-Allow-Credentials", "true")
 
-		fmt.Println("cors")
-
 		next.ServeHTTP(w, r)
 
 		return
@@ -77,12 +74,9 @@ func Token(next http.Handler) http.Handler {
 		req, err := http.NewRequest(method, urlsso, payload)
 		if err != nil {
 			log.Printf("Error al formar request", err)
-
 		}
 
 		req.Header.Add("Authorization", r.Header.Get("Authorization"))
-		fmt.Println("auth")
-		fmt.Println(r.Header.Get("Authorization"))
 
 		client := &http.Client{}
 		res, err := client.Do(req)
@@ -105,7 +99,6 @@ func Token(next http.Handler) http.Handler {
 
 		if responseToken.Meta.Status == "FAIL" || responseToken.Meta.Status == "" {
 			log.Printf("El estatus de la peticion fue", status)
-			fmt.Fprintf(w, string(status))
 			return
 		}
 		next.ServeHTTP(w, r)
