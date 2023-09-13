@@ -11,8 +11,8 @@
     </div>
     <div class="input-agregar">
         <p>Sku: </p> 
-         <select [(ngModel)]="sku" name="select" class="select-sku" id="sku">
-                <option *ngFor="let articulo of inventario" value="articulo.Sku" [value]="articulo.Sku">{{ articulo.Sku+" - "+" "+ articulo.DescripcionArticulo }}</option>
+         <select name="select" class="select-sku" id="sku" >
+                <option *ngFor="let articulo of inventario"  value="articulo.Sku" [value]="articulo.Sku">{{ articulo.Sku+" - "+" "+ articulo.DescripcionArticulo }}</option>
           </select>
     </div>
     <div class="input-agregar">
@@ -28,7 +28,9 @@
     <div *ngIf="vacios == true" >
         <label class="textInfo">Faltan campos por llenar</label>
     </div> 
-
+    <div *ngIf="cantidadMin == true" >
+        <label class="textInfo">La cantidad debe ser mayor a 0</label>
+    </div> 
     <div class="contenedor-buttons">    
         <div class="buttons-Guardar">
             <button (click)="guardarPoliza()">Guardar</button>
