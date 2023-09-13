@@ -32,7 +32,6 @@ export class ModificarPolizaComponent implements OnInit, OnChanges {
     vacios = false;
     cantidadModificar:any;
     nombreClienteModificar:any;
-
     constructor(
       private polizasApi: PolizasApiService,
       private Empleados: EmpleadosComponent,
@@ -40,9 +39,7 @@ export class ModificarPolizaComponent implements OnInit, OnChanges {
     
     ) {}
   ngOnChanges(changes: SimpleChanges): void {
-      this.cantidadModificar = this.cantidad;
       this.skuModificar = this.sku;
-      this.nombreClienteModificar = this.nombreCliente;
 
   }
 
@@ -103,8 +100,6 @@ export class ModificarPolizaComponent implements OnInit, OnChanges {
     }else{
         this.vacios = true;
       }
-
-      this.cantidadModificar =this.cantidad
     
   }
     CerrarDialog(){
@@ -112,6 +107,7 @@ export class ModificarPolizaComponent implements OnInit, OnChanges {
       cantidadElement.value = this.cantidad;
       const nombreClienteElement = document.getElementById('nombreClienteModificar') as HTMLInputElement;
       nombreClienteElement.value = this.nombreCliente;
+      this.skuModificar = this.sku;
 
       this.Empleados.CerrarDialogModificar();
       this.empleados= this.empleadoGenero;
