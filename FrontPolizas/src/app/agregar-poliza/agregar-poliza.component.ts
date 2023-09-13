@@ -23,8 +23,8 @@ export class AgregarPolizaComponent implements OnInit {
   error = false;
   errorMessage : any;
   cantidadMin = false;
-
-
+  icantidad : any;
+  skuModificar : any;
   @ViewChild('myDialog') dialog!: ElementRef;
 
 
@@ -96,11 +96,13 @@ export class AgregarPolizaComponent implements OnInit {
           }
         );
       }
+      else{
+        this.cantidadMin = true;
+      }
     }else{
       this.vacios = true;
     }
     console.log(this.nombreEmpleado.value);
-    console.log(this.sku.value);
     console.log(this.cantidad.value);
     console.log(this.nombreCliente.value);
 
