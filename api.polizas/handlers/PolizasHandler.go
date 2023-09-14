@@ -20,15 +20,24 @@ func ConsultarPolizasEmpleado(w http.ResponseWriter, r *http.Request) {
 	}
 	log.Printf("Inicio PolizasHandler::ConsultarPolizasEmpleado")
 	queryParams := r.URL.Query()
-
+	var dataMessage = entities.PolizaMessage{}
 	id := queryParams.Get("idempleado")
 	idempleado, _ := strconv.Atoi(id)
+	var mensaje = ""
+	polizas, mensaje := services.ConsultarPolizasEmpleado(int32(idempleado))
+	if mensaje == utilities.StatusOk {
+		response.Meta.Status = utilities.StatusOk
+		response.Data = polizas
+		response, _ := json.Marshal(response)
+		fmt.Fprintf(w, string(response))
+	} else {
+		dataMessage.Message = mensaje
+		response.Meta.Status = utilities.StatusFail
+		response.Data = polizas
+		response, _ := json.Marshal(response)
+		fmt.Fprintf(w, string(response))
+	}
 
-	polizas := services.ConsultarPolizasEmpleado(int32(idempleado))
-	response.Meta.Status = utilities.StatusOk
-	response.Data = polizas
-	response, _ := json.Marshal(response)
-	fmt.Fprintf(w, string(response))
 	log.Printf("Termina PolizasHandler::ConsultarPolizasEmpleado")
 
 }
@@ -90,49 +99,6 @@ func AgregarPoliza(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
-func ActualizarPoliza(w http.ResponseWriter, r *http.Request) {
-	if r.Method == "OPTIONS" {
-		return
-	}
-	log.Printf("Inicio PolizasHandler::ActualizarPoliza")
-	body, err := ioutil.ReadAll(r.Body)
-	if err != nil {
-		http.Error(w, "Error al leer el cuerpo de la solicitud", http.StatusBadRequest)
-		return
-	}
-	defer r.Body.Close()
-	bodyString := string(body)
-	fmt.Println("Valores del cuerpo:", bodyString)
-
-	var poliza entities.PolizaDetalle
-	err = json.Unmarshal(body, &poliza)
-	if err != nil {
-		log.Fatal(err)
-		log.Printf("error: ", err)
-	}
-
-	result := services.ActualizarPoliza(poliza)
-	if result == 0 {
-		log.Printf("Error al actualizar la poliza con id" + string(poliza.IdPoliza))
-		var errorPoliza = entities.PolizaMessage{}
-		errorPoliza.Message = utilities.ErrorActualizarPoliza
-		response.Meta.Status = utilities.StatusFail
-		response.Data = errorPoliza
-		response, _ := json.Marshal(response)
-
-		fmt.Fprintf(w, string(response))
-		return
-	}
-	var polizaMessage = entities.PolizaMessage{}
-	polizaMessage.Message = "Se ha actualizado la poliza correctamente"
-	response.Meta.Status = utilities.StatusOk
-	response.Data = polizaMessage.Message
-
-	response, _ := json.Marshal(response)
-	fmt.Fprintf(w, string(response))
-	log.Printf("Inicio PolizasHandler::ActualizarPoliza")
-}
-
 func EliminarPoliza(w http.ResponseWriter, r *http.Request) {
 	if r.Method == "OPTIONS" {
 		return
@@ -166,7 +132,7 @@ func EliminarPoliza(w http.ResponseWriter, r *http.Request) {
 	log.Printf("Inicio PolizasHandler::EliminarPoliza")
 }
 
-func ActualizarPoliza2(w http.ResponseWriter, r *http.Request) {
+func ActualizarPoliza(w http.ResponseWriter, r *http.Request) {
 	if r.Method == "OPTIONS" {
 		return
 	}
@@ -187,7 +153,7 @@ func ActualizarPoliza2(w http.ResponseWriter, r *http.Request) {
 		log.Printf("error: ", err)
 	}
 
-	respuesta := services.ActualizarPoliza2(poliza)
+	respuesta := services.ActualizarPoliza(poliza)
 
 	var data = entities.PolizaMessage{}
 	var mensaje = ""

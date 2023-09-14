@@ -34,10 +34,9 @@ func main() {
 	mux.HandleFunc(path_api+"/Empleados", handlers.ConsultarEmpleados).Methods("GET", "OPTIONS")
 	mux.HandleFunc(path_api+"/ConsultarPolizasEmpleado", handlers.ConsultarPolizasEmpleado).Methods("GET", "OPTIONS")
 	mux.HandleFunc(path_api+"/AgregarPoliza", handlers.AgregarPoliza).Methods("POST", "OPTIONS")
-	mux.HandleFunc(path_api+"/ActualizarPoliza", handlers.ActualizarPoliza).Methods("POST", "OPTIONS")
 	mux.HandleFunc(path_api+"/EliminarPolizas", handlers.EliminarPoliza).Methods("POST", "OPTIONS")
 	mux.HandleFunc(path_api+"/ConsultarInventario", handlers.ConsultarInventario).Methods("GET", "OPTIONS")
-	mux.HandleFunc(path_api+"/ActualizarPoliza2", handlers.ActualizarPoliza2).Methods("POST", "OPTIONS")
+	mux.HandleFunc(path_api+"/ActualizarPoliza", handlers.ActualizarPoliza).Methods("POST", "OPTIONS")
 
 	log.Fatal(http.ListenAndServe(":3000", mux))
 

@@ -12768,3 +12768,1158 @@
 2023/09/12 10:40:22 Inicio del api.polizas
 2023/09/12 10:40:22 api.polizas
 2023/09/12 10:40:22 listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+2023/09/13 15:42:33 Inicio del api.polizas
+2023/09/13 15:42:33 "api.polizas"
+2023/09/13 15:44:37 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 15:44:37 Inicio InventarioService::consultarInventario
+2023/09/13 15:44:37 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/13 15:44:37 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 15:44:37 Inicio InventarioService::consultarInventario
+2023/09/13 15:44:37 Termina InventarioService::consultarInventario
+2023/09/13 15:44:37 Termina InventarioHandler::ConsultarInventario
+2023/09/13 15:44:37 Termina PolizasHandler::ConsultarEmpleados
+2023/09/13 15:44:37 Termina InventarioService::consultarInventario
+2023/09/13 15:44:37 Termina InventarioHandler::ConsultarInventario
+2023/09/13 15:44:43 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/13 15:44:43 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 15:44:43 Inicio InventarioService::consultarInventario
+2023/09/13 15:44:43 Termina InventarioService::consultarInventario
+2023/09/13 15:44:43 Termina InventarioHandler::ConsultarInventario
+2023/09/13 15:44:43 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 15:44:43 Inicio InventarioService::consultarInventario
+2023/09/13 15:44:43 Termina PolizasHandler::ConsultarEmpleados
+2023/09/13 15:44:44 Termina InventarioService::consultarInventario
+2023/09/13 15:44:44 Termina InventarioHandler::ConsultarInventario
+2023/09/13 15:44:50 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 15:44:50 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 15:44:50 Termina PolizasService::ConsultarPolizasEmpleado
+2023/09/13 15:44:50 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 15:44:56 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 15:44:56 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 15:44:56 Termina PolizasService::ConsultarPolizasEmpleado
+2023/09/13 15:44:56 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 15:45:00 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 15:45:00 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 15:45:00 Termina PolizasService::ConsultarPolizasEmpleado
+2023/09/13 15:45:00 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 15:45:22 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/13 15:45:22 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 15:45:22 Inicio InventarioService::consultarInventario
+2023/09/13 15:45:22 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 15:45:22 Inicio InventarioService::consultarInventario
+2023/09/13 15:45:22 Termina InventarioService::consultarInventario
+2023/09/13 15:45:22 Termina InventarioHandler::ConsultarInventario
+2023/09/13 15:45:22 Termina PolizasHandler::ConsultarEmpleados
+2023/09/13 15:45:22 Termina InventarioService::consultarInventario
+2023/09/13 15:45:22 Termina InventarioHandler::ConsultarInventario
+2023/09/13 15:47:50 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 15:47:50 Inicio InventarioService::consultarInventario
+2023/09/13 15:47:50 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/13 15:47:50 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 15:47:50 Inicio InventarioService::consultarInventario
+2023/09/13 15:47:50 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/13 15:47:50 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 15:47:50 Inicio InventarioService::consultarInventario
+2023/09/13 15:47:50 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 15:47:50 Inicio InventarioService::consultarInventario
+2023/09/13 15:47:50 Termina InventarioService::consultarInventario
+2023/09/13 15:47:50 Termina InventarioHandler::ConsultarInventario
+2023/09/13 15:47:50 Termina PolizasHandler::ConsultarEmpleados
+2023/09/13 15:47:51 Termina InventarioService::consultarInventario
+2023/09/13 15:47:51 Termina InventarioHandler::ConsultarInventario
+2023/09/13 15:47:51 Termina InventarioService::consultarInventario
+2023/09/13 15:47:51 Termina InventarioHandler::ConsultarInventario
+2023/09/13 15:47:51 Termina PolizasHandler::ConsultarEmpleados
+2023/09/13 15:47:51 Termina InventarioService::consultarInventario
+2023/09/13 15:47:51 Termina InventarioHandler::ConsultarInventario
+2023/09/13 15:47:51 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/13 15:47:51 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 15:47:51 Inicio InventarioService::consultarInventario
+2023/09/13 15:47:51 Termina InventarioService::consultarInventario
+2023/09/13 15:47:51 Termina InventarioHandler::ConsultarInventario
+2023/09/13 15:47:51 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 15:47:51 Inicio InventarioService::consultarInventario
+2023/09/13 15:47:51 Termina PolizasHandler::ConsultarEmpleados
+2023/09/13 15:47:51 Termina InventarioService::consultarInventario
+2023/09/13 15:47:51 Termina InventarioHandler::ConsultarInventario
+2023/09/13 15:48:11 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/13 15:48:11 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 15:48:11 Inicio InventarioService::consultarInventario
+2023/09/13 15:48:11 Termina PolizasHandler::ConsultarEmpleados
+2023/09/13 15:48:11 Termina InventarioService::consultarInventario
+2023/09/13 15:48:11 Termina InventarioHandler::ConsultarInventario
+2023/09/13 15:48:11 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 15:48:11 Inicio InventarioService::consultarInventario
+2023/09/13 15:48:11 Termina InventarioService::consultarInventario
+2023/09/13 15:48:11 Termina InventarioHandler::ConsultarInventario
+2023/09/13 15:48:12 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 15:48:12 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 15:48:12 Termina PolizasService::ConsultarPolizasEmpleado
+2023/09/13 15:48:12 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 15:48:14 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 15:48:14 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 15:48:14 Termina PolizasService::ConsultarPolizasEmpleado
+2023/09/13 15:48:14 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 15:48:16 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 15:48:16 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 15:48:17 Termina PolizasService::ConsultarPolizasEmpleado
+2023/09/13 15:48:17 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 15:48:19 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 15:48:19 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 15:48:19 Termina PolizasService::ConsultarPolizasEmpleado
+2023/09/13 15:48:19 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 15:50:21 Inicio del api.polizas
+2023/09/13 15:50:21 "api.polizas"
+2023/09/13 15:50:34 Inicio del api.polizas
+2023/09/13 15:50:34 "api.polizas"
+2023/09/13 15:52:08 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/13 15:52:08 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 15:52:08 Inicio InventarioService::consultarInventario
+2023/09/13 15:52:08 Termina InventarioService::consultarInventario
+2023/09/13 15:52:08 Termina InventarioHandler::ConsultarInventario
+2023/09/13 15:52:08 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 15:52:08 Inicio InventarioService::consultarInventario
+2023/09/13 15:52:08 Termina PolizasHandler::ConsultarEmpleados
+2023/09/13 15:52:09 Termina InventarioService::consultarInventario
+2023/09/13 15:52:09 Termina InventarioHandler::ConsultarInventario
+2023/09/13 15:52:09 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/13 15:52:09 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 15:52:09 Inicio InventarioService::consultarInventario
+2023/09/13 15:52:09 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/13 15:52:09 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 15:52:09 Inicio InventarioService::consultarInventario
+2023/09/13 15:52:09 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 15:52:09 Inicio InventarioService::consultarInventario
+2023/09/13 15:52:09 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 15:52:09 Inicio InventarioService::consultarInventario
+2023/09/13 15:52:10 Termina PolizasHandler::ConsultarEmpleados
+2023/09/13 15:52:10 Termina PolizasHandler::ConsultarEmpleados
+2023/09/13 15:52:10 Termina InventarioService::consultarInventario
+2023/09/13 15:52:10 Termina InventarioHandler::ConsultarInventario
+2023/09/13 15:52:10 Termina InventarioService::consultarInventario
+2023/09/13 15:52:10 Termina InventarioHandler::ConsultarInventario
+2023/09/13 15:52:10 Termina InventarioService::consultarInventario
+2023/09/13 15:52:10 Termina InventarioHandler::ConsultarInventario
+2023/09/13 15:52:10 Termina InventarioService::consultarInventario
+2023/09/13 15:52:10 Termina InventarioHandler::ConsultarInventario
+2023/09/13 15:52:15 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/13 15:52:15 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 15:52:15 Inicio InventarioService::consultarInventario
+2023/09/13 15:52:15 Termina InventarioService::consultarInventario
+2023/09/13 15:52:15 Termina InventarioHandler::ConsultarInventario
+2023/09/13 15:52:15 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 15:52:15 Inicio InventarioService::consultarInventario
+2023/09/13 15:52:15 Termina PolizasHandler::ConsultarEmpleados
+2023/09/13 15:52:15 Termina InventarioService::consultarInventario
+2023/09/13 15:52:15 Termina InventarioHandler::ConsultarInventario
+2023/09/13 15:52:16 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 15:52:16 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 15:52:16 Termina PolizasService::ConsultarPolizasEmpleado
+2023/09/13 15:52:16 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 15:52:24 Inicio PolizasHandler::ActualizarPoliza
+2023/09/13 15:52:24 Inicia PolizasService::ActualizarPoliza
+2023/09/13 15:52:24 Termina PolizasService::ActualizarPoliza
+2023/09/13 15:52:24 Exito al guardar la poliza del cliente Alejandro Bueno
+2023/09/13 15:52:24 Termina PolizasHandler::AgregarPoliza
+2023/09/13 15:52:24 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 15:52:24 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 15:52:24 Termina PolizasService::ConsultarPolizasEmpleado
+2023/09/13 15:52:24 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 15:52:28 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 15:52:28 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 15:52:28 Termina PolizasService::ConsultarPolizasEmpleado
+2023/09/13 15:52:28 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 15:52:38 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 15:52:38 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 15:52:38 Termina PolizasService::ConsultarPolizasEmpleado
+2023/09/13 15:52:38 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:18:08 Inicio del api.polizas
+2023/09/13 16:18:08 "api.polizas"
+2023/09/13 16:18:23 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:18:23 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 16:18:23 Error al ejecutar la funcion fun_consultapolizas()
+2023/09/13 16:18:23 %!(EXTRA *pq.Error=pq: no existe la función fun_consultapolizaempleado2(integer))
+2023/09/13 16:18:23 http: panic serving [::1]:56955: runtime error: invalid memory address or nil pointer dereference
+goroutine 6 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1854 +0xbf
+panic({0xbb5180, 0xe36630})
+	C:/Program Files/Go/src/runtime/panic.go:890 +0x263
+database/sql.(*Rows).close(0x0, {0x0, 0x0})
+	C:/Program Files/Go/src/database/sql/sql.go:3274 +0xa1
+database/sql.(*Rows).Close(0x0?)
+	C:/Program Files/Go/src/database/sql/sql.go:3270 +0x1d
+panic({0xbb5180, 0xe36630})
+	C:/Program Files/Go/src/runtime/panic.go:884 +0x213
+database/sql.(*Rows).Next(0x0)
+	C:/Program Files/Go/src/database/sql/sql.go:2951 +0x27
+main.go/services.ConsultarPolizasEmpleado(0x98085?)
+	C:/Users/alejandro.bueno/Music/ProyectoPolizas/api.polizas/services/PolizasService.go:32 +0x23e
+main.go/handlers.ConsultarPolizasEmpleado({0xc83930?, 0xc0000b20e0}, 0xc000096500)
+	C:/Users/alejandro.bueno/Music/ProyectoPolizas/api.polizas/handlers/PolizasHandler.go:27 +0xa5
+net/http.HandlerFunc.ServeHTTP(0xbda080?, {0xc83930?, 0xc0000b20e0?}, 0x20?)
+	C:/Program Files/Go/src/net/http/server.go:2122 +0x2f
+main.CORS.func1({0xc83930, 0xc0000b20e0}, 0xc000088330?)
+	C:/Users/alejandro.bueno/Music/ProyectoPolizas/api.polizas/main.go:54 +0x3af
+net/http.HandlerFunc.ServeHTTP(0xc000096400?, {0xc83930?, 0xc0000b20e0?}, 0xc00006d9e8?)
+	C:/Program Files/Go/src/net/http/server.go:2122 +0x2f
+github.com/gorilla/mux.(*Router).ServeHTTP(0xc0000000c0, {0xc83930, 0xc0000b20e0}, 0xc000096300)
+	C:/Users/alejandro.bueno/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210 +0x1cf
+net/http.serverHandler.ServeHTTP({0xc000088030?}, {0xc83930, 0xc0000b20e0}, 0xc000096300)
+	C:/Program Files/Go/src/net/http/server.go:2936 +0x316
+net/http.(*conn).serve(0xc000178000, {0xc83b58, 0xc000079860})
+	C:/Program Files/Go/src/net/http/server.go:1995 +0x612
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3089 +0x5ed
+2023/09/13 16:18:23 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:18:23 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 16:18:23 Error al ejecutar la funcion fun_consultapolizas()
+2023/09/13 16:18:23 %!(EXTRA *pq.Error=pq: no existe la función fun_consultapolizaempleado2(integer))
+2023/09/13 16:18:23 http: panic serving [::1]:56957: runtime error: invalid memory address or nil pointer dereference
+goroutine 35 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1854 +0xbf
+panic({0xbb5180, 0xe36630})
+	C:/Program Files/Go/src/runtime/panic.go:890 +0x263
+database/sql.(*Rows).close(0x0, {0x0, 0x0})
+	C:/Program Files/Go/src/database/sql/sql.go:3274 +0xa1
+database/sql.(*Rows).Close(0x0?)
+	C:/Program Files/Go/src/database/sql/sql.go:3270 +0x1d
+panic({0xbb5180, 0xe36630})
+	C:/Program Files/Go/src/runtime/panic.go:884 +0x213
+database/sql.(*Rows).Next(0x0)
+	C:/Program Files/Go/src/database/sql/sql.go:2951 +0x27
+main.go/services.ConsultarPolizasEmpleado(0x98535?)
+	C:/Users/alejandro.bueno/Music/ProyectoPolizas/api.polizas/services/PolizasService.go:32 +0x23e
+main.go/handlers.ConsultarPolizasEmpleado({0xc83930?, 0xc0000b21c0}, 0xc000096800)
+	C:/Users/alejandro.bueno/Music/ProyectoPolizas/api.polizas/handlers/PolizasHandler.go:27 +0xa5
+net/http.HandlerFunc.ServeHTTP(0xbda080?, {0xc83930?, 0xc0000b21c0?}, 0x20?)
+	C:/Program Files/Go/src/net/http/server.go:2122 +0x2f
+main.CORS.func1({0xc83930, 0xc0000b21c0}, 0xc000088780?)
+	C:/Users/alejandro.bueno/Music/ProyectoPolizas/api.polizas/main.go:54 +0x3af
+net/http.HandlerFunc.ServeHTTP(0xc000096700?, {0xc83930?, 0xc0000b21c0?}, 0x800?)
+	C:/Program Files/Go/src/net/http/server.go:2122 +0x2f
+github.com/gorilla/mux.(*Router).ServeHTTP(0xc0000000c0, {0xc83930, 0xc0000b21c0}, 0xc000096600)
+	C:/Users/alejandro.bueno/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210 +0x1cf
+net/http.serverHandler.ServeHTTP({0xc000088630?}, {0xc83930, 0xc0000b21c0}, 0xc000096600)
+	C:/Program Files/Go/src/net/http/server.go:2936 +0x316
+net/http.(*conn).serve(0xc000254090, {0xc83b58, 0xc000079860})
+	C:/Program Files/Go/src/net/http/server.go:1995 +0x612
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3089 +0x5ed
+2023/09/13 16:18:25 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:18:25 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 16:18:25 Error al ejecutar la funcion fun_consultapolizas()
+2023/09/13 16:18:25 %!(EXTRA *pq.Error=pq: no existe la función fun_consultapolizaempleado2(integer))
+2023/09/13 16:18:25 http: panic serving [::1]:56959: runtime error: invalid memory address or nil pointer dereference
+goroutine 30 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1854 +0xbf
+panic({0xbb5180, 0xe36630})
+	C:/Program Files/Go/src/runtime/panic.go:890 +0x263
+database/sql.(*Rows).close(0x0, {0x0, 0x0})
+	C:/Program Files/Go/src/database/sql/sql.go:3274 +0xa1
+database/sql.(*Rows).Close(0x0?)
+	C:/Program Files/Go/src/database/sql/sql.go:3270 +0x1d
+panic({0xbb5180, 0xe36630})
+	C:/Program Files/Go/src/runtime/panic.go:884 +0x213
+database/sql.(*Rows).Next(0x0)
+	C:/Program Files/Go/src/database/sql/sql.go:2951 +0x27
+main.go/services.ConsultarPolizasEmpleado(0x298035?)
+	C:/Users/alejandro.bueno/Music/ProyectoPolizas/api.polizas/services/PolizasService.go:32 +0x23e
+main.go/handlers.ConsultarPolizasEmpleado({0xc83930?, 0xc0002ac000}, 0xc00028e200)
+	C:/Users/alejandro.bueno/Music/ProyectoPolizas/api.polizas/handlers/PolizasHandler.go:27 +0xa5
+net/http.HandlerFunc.ServeHTTP(0xbda080?, {0xc83930?, 0xc0002ac000?}, 0x20?)
+	C:/Program Files/Go/src/net/http/server.go:2122 +0x2f
+main.CORS.func1({0xc83930, 0xc0002ac000}, 0xc0002821b0?)
+	C:/Users/alejandro.bueno/Music/ProyectoPolizas/api.polizas/main.go:54 +0x3af
+net/http.HandlerFunc.ServeHTTP(0xc00028e100?, {0xc83930?, 0xc0002ac000?}, 0x800?)
+	C:/Program Files/Go/src/net/http/server.go:2122 +0x2f
+github.com/gorilla/mux.(*Router).ServeHTTP(0xc0000000c0, {0xc83930, 0xc0002ac000}, 0xc00028e000)
+	C:/Users/alejandro.bueno/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210 +0x1cf
+net/http.serverHandler.ServeHTTP({0xc000282030?}, {0xc83930, 0xc0002ac000}, 0xc00028e000)
+	C:/Program Files/Go/src/net/http/server.go:2936 +0x316
+net/http.(*conn).serve(0xc00009a5a0, {0xc83b58, 0xc000079860})
+	C:/Program Files/Go/src/net/http/server.go:1995 +0x612
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3089 +0x5ed
+2023/09/13 16:18:27 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:18:27 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 16:18:27 Error al ejecutar la funcion fun_consultapolizas()
+2023/09/13 16:18:27 %!(EXTRA *pq.Error=pq: no existe la función fun_consultapolizaempleado2(integer))
+2023/09/13 16:18:27 http: panic serving [::1]:56963: runtime error: invalid memory address or nil pointer dereference
+goroutine 56 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1854 +0xbf
+panic({0xbb5180, 0xe36630})
+	C:/Program Files/Go/src/runtime/panic.go:890 +0x263
+database/sql.(*Rows).close(0x0, {0x0, 0x0})
+	C:/Program Files/Go/src/database/sql/sql.go:3274 +0xa1
+database/sql.(*Rows).Close(0x0?)
+	C:/Program Files/Go/src/database/sql/sql.go:3270 +0x1d
+panic({0xbb5180, 0xe36630})
+	C:/Program Files/Go/src/runtime/panic.go:884 +0x213
+database/sql.(*Rows).Next(0x0)
+	C:/Program Files/Go/src/database/sql/sql.go:2951 +0x27
+main.go/services.ConsultarPolizasEmpleado(0x25a0d5?)
+	C:/Users/alejandro.bueno/Music/ProyectoPolizas/api.polizas/services/PolizasService.go:32 +0x23e
+main.go/handlers.ConsultarPolizasEmpleado({0xc83930?, 0xc0002201c0}, 0xc000270500)
+	C:/Users/alejandro.bueno/Music/ProyectoPolizas/api.polizas/handlers/PolizasHandler.go:27 +0xa5
+net/http.HandlerFunc.ServeHTTP(0xbda080?, {0xc83930?, 0xc0002201c0?}, 0x20?)
+	C:/Program Files/Go/src/net/http/server.go:2122 +0x2f
+main.CORS.func1({0xc83930, 0xc0002201c0}, 0xc0002064e0?)
+	C:/Users/alejandro.bueno/Music/ProyectoPolizas/api.polizas/main.go:54 +0x3af
+net/http.HandlerFunc.ServeHTTP(0xc000270400?, {0xc83930?, 0xc0002201c0?}, 0xc00006d9e8?)
+	C:/Program Files/Go/src/net/http/server.go:2122 +0x2f
+github.com/gorilla/mux.(*Router).ServeHTTP(0xc0000000c0, {0xc83930, 0xc0002201c0}, 0xc000270300)
+	C:/Users/alejandro.bueno/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210 +0x1cf
+net/http.serverHandler.ServeHTTP({0xc000206210?}, {0xc83930, 0xc0002201c0}, 0xc000270300)
+	C:/Program Files/Go/src/net/http/server.go:2936 +0x316
+net/http.(*conn).serve(0xc00029a2d0, {0xc83b58, 0xc000079860})
+	C:/Program Files/Go/src/net/http/server.go:1995 +0x612
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3089 +0x5ed
+2023/09/13 16:18:27 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:18:27 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 16:18:27 Error al ejecutar la funcion fun_consultapolizas()
+2023/09/13 16:18:27 %!(EXTRA *pq.Error=pq: no existe la función fun_consultapolizaempleado2(integer))
+2023/09/13 16:18:27 http: panic serving [::1]:56965: runtime error: invalid memory address or nil pointer dereference
+goroutine 32 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1854 +0xbf
+panic({0xbb5180, 0xe36630})
+	C:/Program Files/Go/src/runtime/panic.go:890 +0x263
+database/sql.(*Rows).close(0x0, {0x0, 0x0})
+	C:/Program Files/Go/src/database/sql/sql.go:3274 +0xa1
+database/sql.(*Rows).Close(0x0?)
+	C:/Program Files/Go/src/database/sql/sql.go:3270 +0x1d
+panic({0xbb5180, 0xe36630})
+	C:/Program Files/Go/src/runtime/panic.go:884 +0x213
+database/sql.(*Rows).Next(0x0)
+	C:/Program Files/Go/src/database/sql/sql.go:2951 +0x27
+main.go/services.ConsultarPolizasEmpleado(0x298585?)
+	C:/Users/alejandro.bueno/Music/ProyectoPolizas/api.polizas/services/PolizasService.go:32 +0x23e
+main.go/handlers.ConsultarPolizasEmpleado({0xc83930?, 0xc0002ac2a0}, 0xc00028e600)
+	C:/Users/alejandro.bueno/Music/ProyectoPolizas/api.polizas/handlers/PolizasHandler.go:27 +0xa5
+net/http.HandlerFunc.ServeHTTP(0xbda080?, {0xc83930?, 0xc0002ac2a0?}, 0x20?)
+	C:/Program Files/Go/src/net/http/server.go:2122 +0x2f
+main.CORS.func1({0xc83930, 0xc0002ac2a0}, 0xc000282930?)
+	C:/Users/alejandro.bueno/Music/ProyectoPolizas/api.polizas/main.go:54 +0x3af
+net/http.HandlerFunc.ServeHTTP(0xc00028e500?, {0xc83930?, 0xc0002ac2a0?}, 0x800?)
+	C:/Program Files/Go/src/net/http/server.go:2122 +0x2f
+github.com/gorilla/mux.(*Router).ServeHTTP(0xc0000000c0, {0xc83930, 0xc0002ac2a0}, 0xc00028e400)
+	C:/Users/alejandro.bueno/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210 +0x1cf
+net/http.serverHandler.ServeHTTP({0xc0002827e0?}, {0xc83930, 0xc0002ac2a0}, 0xc00028e400)
+	C:/Program Files/Go/src/net/http/server.go:2936 +0x316
+net/http.(*conn).serve(0xc00009a6c0, {0xc83b58, 0xc000079860})
+	C:/Program Files/Go/src/net/http/server.go:1995 +0x612
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3089 +0x5ed
+2023/09/13 16:18:29 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/13 16:18:29 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 16:18:29 Inicio InventarioService::consultarInventario
+2023/09/13 16:18:29 Termina InventarioService::consultarInventario
+2023/09/13 16:18:29 Termina InventarioHandler::ConsultarInventario
+2023/09/13 16:18:29 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 16:18:29 Inicio InventarioService::consultarInventario
+2023/09/13 16:18:29 Termina PolizasHandler::ConsultarEmpleados
+2023/09/13 16:18:29 Termina InventarioService::consultarInventario
+2023/09/13 16:18:29 Termina InventarioHandler::ConsultarInventario
+2023/09/13 16:18:30 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:18:30 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 16:18:30 Error al ejecutar la funcion fun_consultapolizas()
+2023/09/13 16:18:30 %!(EXTRA *pq.Error=pq: no existe la función fun_consultapolizaempleado2(integer))
+2023/09/13 16:18:30 http: panic serving [::1]:56975: runtime error: invalid memory address or nil pointer dereference
+goroutine 64 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1854 +0xbf
+panic({0xbb5180, 0xe36630})
+	C:/Program Files/Go/src/runtime/panic.go:890 +0x263
+database/sql.(*Rows).close(0x0, {0x0, 0x0})
+	C:/Program Files/Go/src/database/sql/sql.go:3274 +0xa1
+database/sql.(*Rows).Close(0x0?)
+	C:/Program Files/Go/src/database/sql/sql.go:3270 +0x1d
+panic({0xbb5180, 0xe36630})
+	C:/Program Files/Go/src/runtime/panic.go:884 +0x213
+database/sql.(*Rows).Next(0x0)
+	C:/Program Files/Go/src/database/sql/sql.go:2951 +0x27
+main.go/services.ConsultarPolizasEmpleado(0x298a35?)
+	C:/Users/alejandro.bueno/Music/ProyectoPolizas/api.polizas/services/PolizasService.go:32 +0x23e
+main.go/handlers.ConsultarPolizasEmpleado({0xc83930?, 0xc0002ac540}, 0xc00028ec00)
+	C:/Users/alejandro.bueno/Music/ProyectoPolizas/api.polizas/handlers/PolizasHandler.go:27 +0xa5
+net/http.HandlerFunc.ServeHTTP(0xbda080?, {0xc83930?, 0xc0002ac540?}, 0x20?)
+	C:/Program Files/Go/src/net/http/server.go:2122 +0x2f
+main.CORS.func1({0xc83930, 0xc0002ac540}, 0xc000283050?)
+	C:/Users/alejandro.bueno/Music/ProyectoPolizas/api.polizas/main.go:54 +0x3af
+net/http.HandlerFunc.ServeHTTP(0xc00028eb00?, {0xc83930?, 0xc0002ac540?}, 0xc0002119e8?)
+	C:/Program Files/Go/src/net/http/server.go:2122 +0x2f
+github.com/gorilla/mux.(*Router).ServeHTTP(0xc0000000c0, {0xc83930, 0xc0002ac540}, 0xc00028ea00)
+	C:/Users/alejandro.bueno/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210 +0x1cf
+net/http.serverHandler.ServeHTTP({0xc000206750?}, {0xc83930, 0xc0002ac540}, 0xc00028ea00)
+	C:/Program Files/Go/src/net/http/server.go:2936 +0x316
+net/http.(*conn).serve(0xc00029a6c0, {0xc83b58, 0xc000079860})
+	C:/Program Files/Go/src/net/http/server.go:1995 +0x612
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3089 +0x5ed
+2023/09/13 16:18:30 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:18:30 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 16:18:30 Error al ejecutar la funcion fun_consultapolizas()
+2023/09/13 16:18:30 %!(EXTRA *pq.Error=pq: no existe la función fun_consultapolizaempleado2(integer))
+2023/09/13 16:18:30 http: panic serving [::1]:56974: runtime error: invalid memory address or nil pointer dereference
+goroutine 63 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1854 +0xbf
+panic({0xbb5180, 0xe36630})
+	C:/Program Files/Go/src/runtime/panic.go:890 +0x263
+database/sql.(*Rows).close(0x0, {0x0, 0x0})
+	C:/Program Files/Go/src/database/sql/sql.go:3274 +0xa1
+database/sql.(*Rows).Close(0x0?)
+	C:/Program Files/Go/src/database/sql/sql.go:3270 +0x1d
+panic({0xbb5180, 0xe36630})
+	C:/Program Files/Go/src/runtime/panic.go:884 +0x213
+database/sql.(*Rows).Next(0x0)
+	C:/Program Files/Go/src/database/sql/sql.go:2951 +0x27
+main.go/services.ConsultarPolizasEmpleado(0x25a5d5?)
+	C:/Users/alejandro.bueno/Music/ProyectoPolizas/api.polizas/services/PolizasService.go:32 +0x23e
+main.go/handlers.ConsultarPolizasEmpleado({0xc83930?, 0xc000220460}, 0xc000270c00)
+	C:/Users/alejandro.bueno/Music/ProyectoPolizas/api.polizas/handlers/PolizasHandler.go:27 +0xa5
+net/http.HandlerFunc.ServeHTTP(0xbda080?, {0xc83930?, 0xc000220460?}, 0x20?)
+	C:/Program Files/Go/src/net/http/server.go:2122 +0x2f
+main.CORS.func1({0xc83930, 0xc000220460}, 0xc000206bd0?)
+	C:/Users/alejandro.bueno/Music/ProyectoPolizas/api.polizas/main.go:54 +0x3af
+net/http.HandlerFunc.ServeHTTP(0xc000270b00?, {0xc83930?, 0xc000220460?}, 0xc00006d9e8?)
+	C:/Program Files/Go/src/net/http/server.go:2122 +0x2f
+github.com/gorilla/mux.(*Router).ServeHTTP(0xc0000000c0, {0xc83930, 0xc000220460}, 0xc000270a00)
+	C:/Users/alejandro.bueno/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210 +0x1cf
+net/http.serverHandler.ServeHTTP({0xc000088ed0?}, {0xc83930, 0xc000220460}, 0xc000270a00)
+	C:/Program Files/Go/src/net/http/server.go:2936 +0x316
+net/http.(*conn).serve(0xc00029a630, {0xc83b58, 0xc000079860})
+	C:/Program Files/Go/src/net/http/server.go:1995 +0x612
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3089 +0x5ed
+2023/09/13 16:18:30 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:18:30 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 16:18:30 Error al ejecutar la funcion fun_consultapolizas()
+2023/09/13 16:18:30 %!(EXTRA *pq.Error=pq: no existe la función fun_consultapolizaempleado2(integer))
+2023/09/13 16:18:30 http: panic serving [::1]:56981: runtime error: invalid memory address or nil pointer dereference
+goroutine 79 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1854 +0xbf
+panic({0xbb5180, 0xe36630})
+	C:/Program Files/Go/src/runtime/panic.go:890 +0x263
+database/sql.(*Rows).close(0x0, {0x0, 0x0})
+	C:/Program Files/Go/src/database/sql/sql.go:3274 +0xa1
+database/sql.(*Rows).Close(0x0?)
+	C:/Program Files/Go/src/database/sql/sql.go:3270 +0x1d
+panic({0xbb5180, 0xe36630})
+	C:/Program Files/Go/src/runtime/panic.go:884 +0x213
+database/sql.(*Rows).Next(0x0)
+	C:/Program Files/Go/src/database/sql/sql.go:2951 +0x27
+main.go/services.ConsultarPolizasEmpleado(0x25aad5?)
+	C:/Users/alejandro.bueno/Music/ProyectoPolizas/api.polizas/services/PolizasService.go:32 +0x23e
+main.go/handlers.ConsultarPolizasEmpleado({0xc83930?, 0xc000220620}, 0xc000270f00)
+	C:/Users/alejandro.bueno/Music/ProyectoPolizas/api.polizas/handlers/PolizasHandler.go:27 +0xa5
+net/http.HandlerFunc.ServeHTTP(0xbda080?, {0xc83930?, 0xc000220620?}, 0x20?)
+	C:/Program Files/Go/src/net/http/server.go:2122 +0x2f
+main.CORS.func1({0xc83930, 0xc000220620}, 0xc000207170?)
+	C:/Users/alejandro.bueno/Music/ProyectoPolizas/api.polizas/main.go:54 +0x3af
+net/http.HandlerFunc.ServeHTTP(0xc000270e00?, {0xc83930?, 0xc000220620?}, 0xc0002119e8?)
+	C:/Program Files/Go/src/net/http/server.go:2122 +0x2f
+github.com/gorilla/mux.(*Router).ServeHTTP(0xc0000000c0, {0xc83930, 0xc000220620}, 0xc000270d00)
+	C:/Users/alejandro.bueno/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210 +0x1cf
+net/http.serverHandler.ServeHTTP({0xc000207020?}, {0xc83930, 0xc000220620}, 0xc000270d00)
+	C:/Program Files/Go/src/net/http/server.go:2936 +0x316
+net/http.(*conn).serve(0xc00009acf0, {0xc83b58, 0xc000079860})
+	C:/Program Files/Go/src/net/http/server.go:1995 +0x612
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3089 +0x5ed
+2023/09/13 16:18:34 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/13 16:18:34 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 16:18:34 Inicio InventarioService::consultarInventario
+2023/09/13 16:18:34 Termina PolizasHandler::ConsultarEmpleados
+2023/09/13 16:18:34 Termina InventarioService::consultarInventario
+2023/09/13 16:18:34 Termina InventarioHandler::ConsultarInventario
+2023/09/13 16:18:34 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 16:18:34 Inicio InventarioService::consultarInventario
+2023/09/13 16:18:35 Termina InventarioService::consultarInventario
+2023/09/13 16:18:35 Termina InventarioHandler::ConsultarInventario
+2023/09/13 16:18:46 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:18:46 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 16:18:46 Error al ejecutar la funcion fun_consultapolizas()
+2023/09/13 16:18:46 %!(EXTRA *pq.Error=pq: no existe la función fun_consultapolizaempleado2(integer))
+2023/09/13 16:18:46 http: panic serving [::1]:56991: runtime error: invalid memory address or nil pointer dereference
+goroutine 14 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1854 +0xbf
+panic({0xbb5180, 0xe36630})
+	C:/Program Files/Go/src/runtime/panic.go:890 +0x263
+database/sql.(*Rows).close(0x0, {0x0, 0x0})
+	C:/Program Files/Go/src/database/sql/sql.go:3274 +0xa1
+database/sql.(*Rows).Close(0x0?)
+	C:/Program Files/Go/src/database/sql/sql.go:3270 +0x1d
+panic({0xbb5180, 0xe36630})
+	C:/Program Files/Go/src/runtime/panic.go:884 +0x213
+database/sql.(*Rows).Next(0x0)
+	C:/Program Files/Go/src/database/sql/sql.go:2951 +0x27
+main.go/services.ConsultarPolizasEmpleado(0x496035?)
+	C:/Users/alejandro.bueno/Music/ProyectoPolizas/api.polizas/services/PolizasService.go:32 +0x23e
+main.go/handlers.ConsultarPolizasEmpleado({0xc83930?, 0xc0004a8000}, 0xc000494200)
+	C:/Users/alejandro.bueno/Music/ProyectoPolizas/api.polizas/handlers/PolizasHandler.go:27 +0xa5
+net/http.HandlerFunc.ServeHTTP(0xbda080?, {0xc83930?, 0xc0004a8000?}, 0x20?)
+	C:/Program Files/Go/src/net/http/server.go:2122 +0x2f
+main.CORS.func1({0xc83930, 0xc0004a8000}, 0xc000282150?)
+	C:/Users/alejandro.bueno/Music/ProyectoPolizas/api.polizas/main.go:54 +0x3af
+net/http.HandlerFunc.ServeHTTP(0xc000494100?, {0xc83930?, 0xc0004a8000?}, 0xc00020d9e8?)
+	C:/Program Files/Go/src/net/http/server.go:2122 +0x2f
+github.com/gorilla/mux.(*Router).ServeHTTP(0xc0000000c0, {0xc83930, 0xc0004a8000}, 0xc000494000)
+	C:/Users/alejandro.bueno/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210 +0x1cf
+net/http.serverHandler.ServeHTTP({0xc00044c0f0?}, {0xc83930, 0xc0004a8000}, 0xc000494000)
+	C:/Program Files/Go/src/net/http/server.go:2936 +0x316
+net/http.(*conn).serve(0xc00009a000, {0xc83b58, 0xc000079860})
+	C:/Program Files/Go/src/net/http/server.go:1995 +0x612
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3089 +0x5ed
+2023/09/13 16:18:46 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:18:46 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 16:18:46 Error al ejecutar la funcion fun_consultapolizas()
+2023/09/13 16:18:46 %!(EXTRA *pq.Error=pq: no existe la función fun_consultapolizaempleado2(integer))
+2023/09/13 16:18:46 http: panic serving [::1]:56990: runtime error: invalid memory address or nil pointer dereference
+goroutine 116 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1854 +0xbf
+panic({0xbb5180, 0xe36630})
+	C:/Program Files/Go/src/runtime/panic.go:890 +0x263
+database/sql.(*Rows).close(0x0, {0x0, 0x0})
+	C:/Program Files/Go/src/database/sql/sql.go:3274 +0xa1
+database/sql.(*Rows).Close(0x0?)
+	C:/Program Files/Go/src/database/sql/sql.go:3270 +0x1d
+panic({0xbb5180, 0xe36630})
+	C:/Program Files/Go/src/runtime/panic.go:884 +0x213
+database/sql.(*Rows).Next(0x0)
+	C:/Program Files/Go/src/database/sql/sql.go:2951 +0x27
+main.go/services.ConsultarPolizasEmpleado(0x496535?)
+	C:/Users/alejandro.bueno/Music/ProyectoPolizas/api.polizas/services/PolizasService.go:32 +0x23e
+main.go/handlers.ConsultarPolizasEmpleado({0xc83930?, 0xc0004a81c0}, 0xc000494500)
+	C:/Users/alejandro.bueno/Music/ProyectoPolizas/api.polizas/handlers/PolizasHandler.go:27 +0xa5
+net/http.HandlerFunc.ServeHTTP(0xbda080?, {0xc83930?, 0xc0004a81c0?}, 0x20?)
+	C:/Program Files/Go/src/net/http/server.go:2122 +0x2f
+main.CORS.func1({0xc83930, 0xc0004a81c0}, 0xc000282660?)
+	C:/Users/alejandro.bueno/Music/ProyectoPolizas/api.polizas/main.go:54 +0x3af
+net/http.HandlerFunc.ServeHTTP(0xc000494400?, {0xc83930?, 0xc0004a81c0?}, 0xc0002979e8?)
+	C:/Program Files/Go/src/net/http/server.go:2122 +0x2f
+github.com/gorilla/mux.(*Router).ServeHTTP(0xc0000000c0, {0xc83930, 0xc0004a81c0}, 0xc000494300)
+	C:/Users/alejandro.bueno/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210 +0x1cf
+net/http.serverHandler.ServeHTTP({0xc000206030?}, {0xc83930, 0xc0004a81c0}, 0xc000494300)
+	C:/Program Files/Go/src/net/http/server.go:2936 +0x316
+net/http.(*conn).serve(0xc000178000, {0xc83b58, 0xc000079860})
+	C:/Program Files/Go/src/net/http/server.go:1995 +0x612
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3089 +0x5ed
+2023/09/13 16:18:46 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:18:46 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 16:18:46 Error al ejecutar la funcion fun_consultapolizas()
+2023/09/13 16:18:46 %!(EXTRA *pq.Error=pq: no existe la función fun_consultapolizaempleado2(integer))
+2023/09/13 16:18:46 http: panic serving [::1]:56992: runtime error: invalid memory address or nil pointer dereference
+goroutine 15 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1854 +0xbf
+panic({0xbb5180, 0xe36630})
+	C:/Program Files/Go/src/runtime/panic.go:890 +0x263
+database/sql.(*Rows).close(0x0, {0x0, 0x0})
+	C:/Program Files/Go/src/database/sql/sql.go:3274 +0xa1
+database/sql.(*Rows).Close(0x0?)
+	C:/Program Files/Go/src/database/sql/sql.go:3270 +0x1d
+panic({0xbb5180, 0xe36630})
+	C:/Program Files/Go/src/runtime/panic.go:884 +0x213
+database/sql.(*Rows).Next(0x0)
+	C:/Program Files/Go/src/database/sql/sql.go:2951 +0x27
+main.go/services.ConsultarPolizasEmpleado(0x496a35?)
+	C:/Users/alejandro.bueno/Music/ProyectoPolizas/api.polizas/services/PolizasService.go:32 +0x23e
+main.go/handlers.ConsultarPolizasEmpleado({0xc83930?, 0xc0004a8380}, 0xc000494700)
+	C:/Users/alejandro.bueno/Music/ProyectoPolizas/api.polizas/handlers/PolizasHandler.go:27 +0xa5
+net/http.HandlerFunc.ServeHTTP(0xbda080?, {0xc83930?, 0xc0004a8380?}, 0x20?)
+	C:/Program Files/Go/src/net/http/server.go:2122 +0x2f
+main.CORS.func1({0xc83930, 0xc0004a8380}, 0xc000282c30?)
+	C:/Users/alejandro.bueno/Music/ProyectoPolizas/api.polizas/main.go:54 +0x3af
+net/http.HandlerFunc.ServeHTTP(0xc000494600?, {0xc83930?, 0xc0004a8380?}, 0x800?)
+	C:/Program Files/Go/src/net/http/server.go:2122 +0x2f
+github.com/gorilla/mux.(*Router).ServeHTTP(0xc0000000c0, {0xc83930, 0xc0004a8380}, 0xc00028e100)
+	C:/Users/alejandro.bueno/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210 +0x1cf
+net/http.serverHandler.ServeHTTP({0xc00044c150?}, {0xc83930, 0xc0004a8380}, 0xc00028e100)
+	C:/Program Files/Go/src/net/http/server.go:2936 +0x316
+net/http.(*conn).serve(0xc00009a090, {0xc83b58, 0xc000079860})
+	C:/Program Files/Go/src/net/http/server.go:1995 +0x612
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3089 +0x5ed
+2023/09/13 16:18:46 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:18:46 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 16:18:46 Error al ejecutar la funcion fun_consultapolizas()
+2023/09/13 16:18:46 %!(EXTRA *pq.Error=pq: no existe la función fun_consultapolizaempleado2(integer))
+2023/09/13 16:18:46 http: panic serving [::1]:57013: runtime error: invalid memory address or nil pointer dereference
+goroutine 154 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1854 +0xbf
+panic({0xbb5180, 0xe36630})
+	C:/Program Files/Go/src/runtime/panic.go:890 +0x263
+database/sql.(*Rows).close(0x0, {0x0, 0x0})
+	C:/Program Files/Go/src/database/sql/sql.go:3274 +0xa1
+database/sql.(*Rows).Close(0x0?)
+	C:/Program Files/Go/src/database/sql/sql.go:3270 +0x1d
+panic({0xbb5180, 0xe36630})
+	C:/Program Files/Go/src/runtime/panic.go:884 +0x213
+database/sql.(*Rows).Next(0x0)
+	C:/Program Files/Go/src/database/sql/sql.go:2951 +0x27
+main.go/services.ConsultarPolizasEmpleado(0x53e4e5?)
+	C:/Users/alejandro.bueno/Music/ProyectoPolizas/api.polizas/services/PolizasService.go:32 +0x23e
+main.go/handlers.ConsultarPolizasEmpleado({0xc83930?, 0xc000514620}, 0xc00028ef00)
+	C:/Users/alejandro.bueno/Music/ProyectoPolizas/api.polizas/handlers/PolizasHandler.go:27 +0xa5
+net/http.HandlerFunc.ServeHTTP(0xbda080?, {0xc83930?, 0xc000514620?}, 0x20?)
+	C:/Program Files/Go/src/net/http/server.go:2122 +0x2f
+main.CORS.func1({0xc83930, 0xc000514620}, 0xc00044cc90?)
+	C:/Users/alejandro.bueno/Music/ProyectoPolizas/api.polizas/main.go:54 +0x3af
+net/http.HandlerFunc.ServeHTTP(0xc00028ee00?, {0xc83930?, 0xc000514620?}, 0xc0002979e8?)
+	C:/Program Files/Go/src/net/http/server.go:2122 +0x2f
+github.com/gorilla/mux.(*Router).ServeHTTP(0xc0000000c0, {0xc83930, 0xc000514620}, 0xc00028ed00)
+	C:/Users/alejandro.bueno/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210 +0x1cf
+net/http.serverHandler.ServeHTTP({0xc00044cb40?}, {0xc83930, 0xc000514620}, 0xc00028ed00)
+	C:/Program Files/Go/src/net/http/server.go:2936 +0x316
+net/http.(*conn).serve(0xc000498750, {0xc83b58, 0xc000079860})
+	C:/Program Files/Go/src/net/http/server.go:1995 +0x612
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3089 +0x5ed
+2023/09/13 16:23:28 Inicio del api.polizas
+2023/09/13 16:23:28 "api.polizas"
+2023/09/13 16:23:28 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/13 16:23:28 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 16:23:28 Inicio InventarioService::consultarInventario
+2023/09/13 16:23:28 Termina PolizasHandler::ConsultarEmpleados
+2023/09/13 16:23:28 Termina InventarioService::consultarInventario
+2023/09/13 16:23:28 Termina InventarioHandler::ConsultarInventario
+2023/09/13 16:23:28 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 16:23:28 Inicio InventarioService::consultarInventario
+2023/09/13 16:23:29 Termina InventarioService::consultarInventario
+2023/09/13 16:23:29 Termina InventarioHandler::ConsultarInventario
+2023/09/13 16:23:29 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:23:29 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 16:23:29 Error al ejecutar la funcion fun_consultapolizas()
+2023/09/13 16:23:29 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:23:37 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:23:37 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 16:23:40 Error al ejecutar la funcion fun_consultapolizas()
+2023/09/13 16:23:40 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:23:43 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:23:43 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 16:23:54 Error al ejecutar la funcion fun_consultapolizas()
+2023/09/13 16:35:12 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:35:19 Inicio del api.polizas
+2023/09/13 16:35:19 "api.polizas"
+2023/09/13 16:36:12 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:36:12 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 16:36:12 Error al ejecutar la funcion fun_consultapolizas()
+2023/09/13 16:36:12 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:36:26 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/13 16:36:26 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 16:36:26 Inicio InventarioService::consultarInventario
+2023/09/13 16:36:26 Termina PolizasHandler::ConsultarEmpleados
+2023/09/13 16:36:26 Termina InventarioService::consultarInventario
+2023/09/13 16:36:26 Termina InventarioHandler::ConsultarInventario
+2023/09/13 16:36:28 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 16:36:28 Inicio InventarioService::consultarInventario
+2023/09/13 16:36:28 Termina InventarioService::consultarInventario
+2023/09/13 16:36:28 Termina InventarioHandler::ConsultarInventario
+2023/09/13 16:36:48 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:36:48 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 16:36:48 Error al ejecutar la funcion fun_consultapolizas()
+2023/09/13 16:36:48 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:40:59 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/13 16:40:59 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 16:40:59 Inicio InventarioService::consultarInventario
+2023/09/13 16:41:00 Termina PolizasHandler::ConsultarEmpleados
+2023/09/13 16:41:00 Termina InventarioService::consultarInventario
+2023/09/13 16:41:00 Termina InventarioHandler::ConsultarInventario
+2023/09/13 16:41:00 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 16:41:00 Inicio InventarioService::consultarInventario
+2023/09/13 16:41:00 Termina InventarioService::consultarInventario
+2023/09/13 16:41:00 Termina InventarioHandler::ConsultarInventario
+2023/09/13 16:41:00 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 16:41:00 Inicio InventarioService::consultarInventario
+2023/09/13 16:41:00 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/13 16:41:01 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/13 16:41:01 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 16:41:01 Inicio InventarioService::consultarInventario
+2023/09/13 16:41:01 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 16:41:01 Inicio InventarioService::consultarInventario
+2023/09/13 16:41:01 Termina PolizasHandler::ConsultarEmpleados
+2023/09/13 16:41:01 Termina InventarioService::consultarInventario
+2023/09/13 16:41:01 Termina InventarioHandler::ConsultarInventario
+2023/09/13 16:41:01 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 16:41:01 Inicio InventarioService::consultarInventario
+2023/09/13 16:41:01 Termina PolizasHandler::ConsultarEmpleados
+2023/09/13 16:41:01 Termina InventarioService::consultarInventario
+2023/09/13 16:41:01 Termina InventarioHandler::ConsultarInventario
+2023/09/13 16:41:01 Termina InventarioService::consultarInventario
+2023/09/13 16:41:01 Termina InventarioHandler::ConsultarInventario
+2023/09/13 16:41:01 Termina InventarioService::consultarInventario
+2023/09/13 16:41:01 Termina InventarioHandler::ConsultarInventario
+2023/09/13 16:41:04 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:41:04 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 16:41:04 Error al ejecutar la funcion fun_consultapolizas()
+2023/09/13 16:41:04 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:41:06 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:41:06 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 16:41:06 Error al ejecutar la funcion fun_consultapolizas()
+2023/09/13 16:41:06 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:42:02 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/13 16:42:02 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 16:42:02 Inicio InventarioService::consultarInventario
+2023/09/13 16:42:02 Termina PolizasHandler::ConsultarEmpleados
+2023/09/13 16:42:02 Termina InventarioService::consultarInventario
+2023/09/13 16:42:02 Termina InventarioHandler::ConsultarInventario
+2023/09/13 16:42:02 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 16:42:02 Inicio InventarioService::consultarInventario
+2023/09/13 16:42:02 Termina InventarioService::consultarInventario
+2023/09/13 16:42:02 Termina InventarioHandler::ConsultarInventario
+2023/09/13 16:42:03 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/13 16:42:03 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 16:42:03 Inicio InventarioService::consultarInventario
+2023/09/13 16:42:03 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 16:42:03 Inicio InventarioService::consultarInventario
+2023/09/13 16:42:03 Termina PolizasHandler::ConsultarEmpleados
+2023/09/13 16:42:03 Termina InventarioService::consultarInventario
+2023/09/13 16:42:03 Termina InventarioHandler::ConsultarInventario
+2023/09/13 16:42:03 Termina InventarioService::consultarInventario
+2023/09/13 16:42:03 Termina InventarioHandler::ConsultarInventario
+2023/09/13 16:42:03 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/13 16:42:03 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 16:42:03 Inicio InventarioService::consultarInventario
+2023/09/13 16:42:03 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 16:42:03 Inicio InventarioService::consultarInventario
+2023/09/13 16:42:03 Termina PolizasHandler::ConsultarEmpleados
+2023/09/13 16:42:03 Termina InventarioService::consultarInventario
+2023/09/13 16:42:03 Termina InventarioHandler::ConsultarInventario
+2023/09/13 16:42:04 Termina InventarioService::consultarInventario
+2023/09/13 16:42:04 Termina InventarioHandler::ConsultarInventario
+2023/09/13 16:42:11 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:42:11 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 16:42:11 Error al ejecutar la funcion fun_consultapolizas()
+2023/09/13 16:42:11 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:42:54 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:42:54 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 16:42:54 Error al ejecutar la funcion fun_consultapolizas()
+2023/09/13 16:42:54 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:42:58 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:42:58 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 16:42:58 Error al ejecutar la funcion fun_consultapolizas()
+2023/09/13 16:42:58 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:43:08 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:43:08 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 16:43:08 Error al ejecutar la funcion fun_consultapolizas()
+2023/09/13 16:43:08 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:43:10 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/13 16:43:10 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 16:43:10 Inicio InventarioService::consultarInventario
+2023/09/13 16:43:10 Termina PolizasHandler::ConsultarEmpleados
+2023/09/13 16:43:10 Termina InventarioService::consultarInventario
+2023/09/13 16:43:10 Termina InventarioHandler::ConsultarInventario
+2023/09/13 16:43:14 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 16:43:14 Inicio InventarioService::consultarInventario
+2023/09/13 16:43:14 Termina InventarioService::consultarInventario
+2023/09/13 16:43:14 Termina InventarioHandler::ConsultarInventario
+2023/09/13 16:43:19 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:43:19 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 16:43:19 Error al ejecutar la funcion fun_consultapolizas()
+2023/09/13 16:43:19 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:43:50 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:43:50 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 16:43:50 Error al ejecutar la funcion fun_consultapolizas()
+2023/09/13 16:43:50 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:43:58 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:43:58 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 16:43:58 Error al ejecutar la funcion fun_consultapolizas()
+2023/09/13 16:43:58 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:44:19 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:44:19 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 16:44:19 Error al ejecutar la funcion fun_consultapolizas()
+2023/09/13 16:44:19 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:44:20 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:44:20 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 16:44:20 Error al ejecutar la funcion fun_consultapolizas()
+2023/09/13 16:44:20 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:44:21 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:44:21 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 16:44:21 Error al ejecutar la funcion fun_consultapolizas()
+2023/09/13 16:44:21 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:44:23 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/13 16:44:23 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 16:44:23 Inicio InventarioService::consultarInventario
+2023/09/13 16:44:23 Termina PolizasHandler::ConsultarEmpleados
+2023/09/13 16:44:23 Termina InventarioService::consultarInventario
+2023/09/13 16:44:23 Termina InventarioHandler::ConsultarInventario
+2023/09/13 16:44:26 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 16:44:26 Inicio InventarioService::consultarInventario
+2023/09/13 16:44:26 Termina InventarioService::consultarInventario
+2023/09/13 16:44:26 Termina InventarioHandler::ConsultarInventario
+2023/09/13 16:44:30 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:44:30 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 16:44:30 Error al ejecutar la funcion fun_consultapolizas()
+2023/09/13 16:44:30 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:44:34 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:44:34 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 16:44:34 Error al ejecutar la funcion fun_consultapolizas()
+2023/09/13 16:44:34 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:45:45 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:45:45 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 16:45:45 Error al ejecutar la funcion fun_consultapolizas()
+2023/09/13 16:45:45 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:45:47 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/13 16:45:47 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 16:45:47 Inicio InventarioService::consultarInventario
+2023/09/13 16:45:47 Termina PolizasHandler::ConsultarEmpleados
+2023/09/13 16:45:47 Termina InventarioService::consultarInventario
+2023/09/13 16:45:47 Termina InventarioHandler::ConsultarInventario
+2023/09/13 16:45:49 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 16:45:49 Inicio InventarioService::consultarInventario
+2023/09/13 16:45:49 Termina InventarioService::consultarInventario
+2023/09/13 16:45:49 Termina InventarioHandler::ConsultarInventario
+2023/09/13 16:45:50 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:45:50 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 16:45:50 Error al ejecutar la funcion fun_consultapolizas()
+2023/09/13 16:45:50 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:47:00 Inicio del api.polizas
+2023/09/13 16:47:00 "api.polizas"
+2023/09/13 16:47:32 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:47:32 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 16:47:32 Termina PolizasService::ConsultarPolizasEmpleado
+2023/09/13 16:47:32 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:47:39 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:47:39 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 16:47:39 Termina PolizasService::ConsultarPolizasEmpleado
+2023/09/13 16:47:39 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:49:14 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:49:14 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 16:49:14 Termina PolizasService::ConsultarPolizasEmpleado
+2023/09/13 16:49:14 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:50:40 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/13 16:50:40 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 16:50:40 Inicio InventarioService::consultarInventario
+2023/09/13 16:50:40 Termina InventarioService::consultarInventario
+2023/09/13 16:50:40 Termina InventarioHandler::ConsultarInventario
+2023/09/13 16:50:40 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 16:50:40 Inicio InventarioService::consultarInventario
+2023/09/13 16:50:40 Termina PolizasHandler::ConsultarEmpleados
+2023/09/13 16:50:40 Termina InventarioService::consultarInventario
+2023/09/13 16:50:40 Termina InventarioHandler::ConsultarInventario
+2023/09/13 16:50:41 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/13 16:50:41 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 16:50:41 Inicio InventarioService::consultarInventario
+2023/09/13 16:50:41 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 16:50:41 Inicio InventarioService::consultarInventario
+2023/09/13 16:50:41 Termina PolizasHandler::ConsultarEmpleados
+2023/09/13 16:50:41 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/13 16:50:41 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 16:50:41 Inicio InventarioService::consultarInventario
+2023/09/13 16:50:41 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 16:50:41 Inicio InventarioService::consultarInventario
+2023/09/13 16:50:41 Termina InventarioService::consultarInventario
+2023/09/13 16:50:41 Termina InventarioHandler::ConsultarInventario
+2023/09/13 16:50:41 Termina InventarioService::consultarInventario
+2023/09/13 16:50:41 Termina InventarioHandler::ConsultarInventario
+2023/09/13 16:50:41 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:50:41 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 16:50:41 Termina PolizasHandler::ConsultarEmpleados
+2023/09/13 16:50:41 Termina InventarioService::consultarInventario
+2023/09/13 16:50:41 Termina InventarioHandler::ConsultarInventario
+2023/09/13 16:50:42 Termina InventarioService::consultarInventario
+2023/09/13 16:50:42 Termina InventarioHandler::ConsultarInventario
+2023/09/13 16:50:42 Termina PolizasService::ConsultarPolizasEmpleado
+2023/09/13 16:50:42 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:51:00 Inicio del api.polizas
+2023/09/13 16:51:00 "api.polizas"
+2023/09/13 16:51:14 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/13 16:51:14 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 16:51:14 Inicio InventarioService::consultarInventario
+2023/09/13 16:51:14 Termina PolizasHandler::ConsultarEmpleados
+2023/09/13 16:51:14 Termina InventarioService::consultarInventario
+2023/09/13 16:51:14 Termina InventarioHandler::ConsultarInventario
+2023/09/13 16:51:14 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 16:51:14 Inicio InventarioService::consultarInventario
+2023/09/13 16:51:14 Termina InventarioService::consultarInventario
+2023/09/13 16:51:14 Termina InventarioHandler::ConsultarInventario
+2023/09/13 16:51:14 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:51:14 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 16:51:15 Error al ejecutar la funcion fun_consultapolizas()
+2023/09/13 16:51:15 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:51:56 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:51:56 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 16:51:56 Error al ejecutar la funcion fun_consultapolizas()
+2023/09/13 16:51:56 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:53:19 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/13 16:53:19 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 16:53:19 Inicio InventarioService::consultarInventario
+2023/09/13 16:53:19 Termina PolizasHandler::ConsultarEmpleados
+2023/09/13 16:53:19 Termina InventarioService::consultarInventario
+2023/09/13 16:53:19 Termina InventarioHandler::ConsultarInventario
+2023/09/13 16:53:19 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/13 16:53:20 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 16:53:20 Inicio InventarioService::consultarInventario
+2023/09/13 16:53:20 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 16:53:20 Inicio InventarioService::consultarInventario
+2023/09/13 16:53:20 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/13 16:53:20 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 16:53:20 Inicio InventarioService::consultarInventario
+2023/09/13 16:53:20 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 16:53:20 Inicio InventarioService::consultarInventario
+2023/09/13 16:53:20 Termina PolizasHandler::ConsultarEmpleados
+2023/09/13 16:53:20 Termina InventarioService::consultarInventario
+2023/09/13 16:53:20 Termina InventarioHandler::ConsultarInventario
+2023/09/13 16:53:20 Termina InventarioService::consultarInventario
+2023/09/13 16:53:20 Termina InventarioHandler::ConsultarInventario
+2023/09/13 16:53:20 Termina PolizasHandler::ConsultarEmpleados
+2023/09/13 16:53:20 Termina InventarioService::consultarInventario
+2023/09/13 16:53:20 Termina InventarioHandler::ConsultarInventario
+2023/09/13 16:53:20 Termina InventarioService::consultarInventario
+2023/09/13 16:53:20 Termina InventarioHandler::ConsultarInventario
+2023/09/13 16:53:22 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 16:53:22 Inicio InventarioService::consultarInventario
+2023/09/13 16:53:22 Termina InventarioService::consultarInventario
+2023/09/13 16:53:22 Termina InventarioHandler::ConsultarInventario
+2023/09/13 16:53:23 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:53:23 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 16:53:24 Error al ejecutar la funcion fun_consultapolizas()
+2023/09/13 16:53:24 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:55:06 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/13 16:55:06 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 16:55:06 Inicio InventarioService::consultarInventario
+2023/09/13 16:55:07 Termina InventarioService::consultarInventario
+2023/09/13 16:55:07 Termina InventarioHandler::ConsultarInventario
+2023/09/13 16:55:07 Termina PolizasHandler::ConsultarEmpleados
+2023/09/13 16:55:07 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/13 16:55:07 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 16:55:07 Inicio InventarioService::consultarInventario
+2023/09/13 16:55:07 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 16:55:07 Inicio InventarioService::consultarInventario
+2023/09/13 16:55:07 Termina PolizasHandler::ConsultarEmpleados
+2023/09/13 16:55:07 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/13 16:55:07 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 16:55:07 Inicio InventarioService::consultarInventario
+2023/09/13 16:55:07 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 16:55:07 Inicio InventarioService::consultarInventario
+2023/09/13 16:55:07 Termina InventarioService::consultarInventario
+2023/09/13 16:55:07 Termina InventarioHandler::ConsultarInventario
+2023/09/13 16:55:08 Termina InventarioService::consultarInventario
+2023/09/13 16:55:08 Termina InventarioHandler::ConsultarInventario
+2023/09/13 16:55:08 Termina InventarioService::consultarInventario
+2023/09/13 16:55:08 Termina InventarioHandler::ConsultarInventario
+2023/09/13 16:55:08 Termina PolizasHandler::ConsultarEmpleados
+2023/09/13 16:55:08 Termina InventarioService::consultarInventario
+2023/09/13 16:55:08 Termina InventarioHandler::ConsultarInventario
+2023/09/13 16:55:09 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 16:55:09 Inicio InventarioService::consultarInventario
+2023/09/13 16:55:09 Termina InventarioService::consultarInventario
+2023/09/13 16:55:09 Termina InventarioHandler::ConsultarInventario
+2023/09/13 16:55:17 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:55:17 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 16:55:17 Error al ejecutar la funcion fun_consultapolizas()
+2023/09/13 16:55:17 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:57:03 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/13 16:57:03 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 16:57:03 Inicio InventarioService::consultarInventario
+2023/09/13 16:57:04 Termina PolizasHandler::ConsultarEmpleados
+2023/09/13 16:57:04 Termina InventarioService::consultarInventario
+2023/09/13 16:57:04 Termina InventarioHandler::ConsultarInventario
+2023/09/13 16:57:04 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/13 16:57:04 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 16:57:04 Inicio InventarioService::consultarInventario
+2023/09/13 16:57:04 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 16:57:04 Inicio InventarioService::consultarInventario
+2023/09/13 16:57:05 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/13 16:57:05 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 16:57:05 Inicio InventarioService::consultarInventario
+2023/09/13 16:57:05 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 16:57:05 Inicio InventarioService::consultarInventario
+2023/09/13 16:57:05 Termina PolizasHandler::ConsultarEmpleados
+2023/09/13 16:57:05 Termina InventarioService::consultarInventario
+2023/09/13 16:57:05 Termina InventarioHandler::ConsultarInventario
+2023/09/13 16:57:05 Termina InventarioService::consultarInventario
+2023/09/13 16:57:05 Termina InventarioHandler::ConsultarInventario
+2023/09/13 16:57:05 Termina PolizasHandler::ConsultarEmpleados
+2023/09/13 16:57:05 Termina InventarioService::consultarInventario
+2023/09/13 16:57:05 Termina InventarioHandler::ConsultarInventario
+2023/09/13 16:57:05 Termina InventarioService::consultarInventario
+2023/09/13 16:57:05 Termina InventarioHandler::ConsultarInventario
+2023/09/13 16:57:06 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 16:57:06 Inicio InventarioService::consultarInventario
+2023/09/13 16:57:06 Termina InventarioService::consultarInventario
+2023/09/13 16:57:06 Termina InventarioHandler::ConsultarInventario
+2023/09/13 16:57:08 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:57:08 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 16:57:08 Error al ejecutar la funcion fun_consultapolizas()
+2023/09/13 16:57:08 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:57:09 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:57:09 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 16:57:09 Error al ejecutar la funcion fun_consultapolizas()
+2023/09/13 16:57:09 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:58:02 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/13 16:58:03 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 16:58:03 Inicio InventarioService::consultarInventario
+2023/09/13 16:58:03 Termina PolizasHandler::ConsultarEmpleados
+2023/09/13 16:58:03 Termina InventarioService::consultarInventario
+2023/09/13 16:58:03 Termina InventarioHandler::ConsultarInventario
+2023/09/13 16:58:04 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 16:58:04 Inicio InventarioService::consultarInventario
+2023/09/13 16:58:05 Termina InventarioService::consultarInventario
+2023/09/13 16:58:05 Termina InventarioHandler::ConsultarInventario
+2023/09/13 16:58:07 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:58:07 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 16:58:07 Error al ejecutar la funcion fun_consultapolizas()
+2023/09/13 16:58:07 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:59:39 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 16:59:39 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 16:59:39 Error al ejecutar la funcion fun_consultapolizas()
+2023/09/13 16:59:39 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 17:00:37 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/13 17:00:37 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 17:00:37 Inicio InventarioService::consultarInventario
+2023/09/13 17:00:38 Termina InventarioService::consultarInventario
+2023/09/13 17:00:38 Termina InventarioHandler::ConsultarInventario
+2023/09/13 17:00:38 Termina PolizasHandler::ConsultarEmpleados
+2023/09/13 17:00:39 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/13 17:00:39 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 17:00:39 Inicio InventarioService::consultarInventario
+2023/09/13 17:00:39 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 17:00:39 Inicio InventarioService::consultarInventario
+2023/09/13 17:00:39 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/13 17:00:39 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 17:00:39 Inicio InventarioService::consultarInventario
+2023/09/13 17:00:39 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 17:00:39 Inicio InventarioService::consultarInventario
+2023/09/13 17:00:39 Termina PolizasHandler::ConsultarEmpleados
+2023/09/13 17:00:39 Termina InventarioService::consultarInventario
+2023/09/13 17:00:39 Termina InventarioHandler::ConsultarInventario
+2023/09/13 17:00:39 Termina InventarioService::consultarInventario
+2023/09/13 17:00:39 Termina InventarioHandler::ConsultarInventario
+2023/09/13 17:00:39 Termina PolizasHandler::ConsultarEmpleados
+2023/09/13 17:00:39 Termina InventarioService::consultarInventario
+2023/09/13 17:00:39 Termina InventarioHandler::ConsultarInventario
+2023/09/13 17:00:39 Termina InventarioService::consultarInventario
+2023/09/13 17:00:39 Termina InventarioHandler::ConsultarInventario
+2023/09/13 17:00:39 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 17:00:39 Inicio InventarioService::consultarInventario
+2023/09/13 17:00:40 Termina InventarioService::consultarInventario
+2023/09/13 17:00:40 Termina InventarioHandler::ConsultarInventario
+2023/09/13 17:00:41 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 17:00:41 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 17:00:41 Error al ejecutar la funcion fun_consultapolizas()
+2023/09/13 17:00:41 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 17:03:14 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/13 17:03:14 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 17:03:14 Inicio InventarioService::consultarInventario
+2023/09/13 17:03:14 Termina PolizasHandler::ConsultarEmpleados
+2023/09/13 17:03:15 Termina InventarioService::consultarInventario
+2023/09/13 17:03:15 Termina InventarioHandler::ConsultarInventario
+2023/09/13 17:03:15 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/13 17:03:15 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 17:03:15 Inicio InventarioService::consultarInventario
+2023/09/13 17:03:15 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 17:03:15 Inicio InventarioService::consultarInventario
+2023/09/13 17:03:15 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/13 17:03:15 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 17:03:15 Inicio InventarioService::consultarInventario
+2023/09/13 17:03:15 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 17:03:15 Inicio InventarioService::consultarInventario
+2023/09/13 17:03:15 Termina PolizasHandler::ConsultarEmpleados
+2023/09/13 17:03:15 Termina InventarioService::consultarInventario
+2023/09/13 17:03:15 Termina InventarioHandler::ConsultarInventario
+2023/09/13 17:03:15 Termina InventarioService::consultarInventario
+2023/09/13 17:03:15 Termina InventarioHandler::ConsultarInventario
+2023/09/13 17:03:16 Termina PolizasHandler::ConsultarEmpleados
+2023/09/13 17:03:16 Termina InventarioService::consultarInventario
+2023/09/13 17:03:16 Termina InventarioHandler::ConsultarInventario
+2023/09/13 17:03:16 Termina InventarioService::consultarInventario
+2023/09/13 17:03:16 Termina InventarioHandler::ConsultarInventario
+2023/09/13 17:03:16 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 17:03:16 Inicio InventarioService::consultarInventario
+2023/09/13 17:03:16 Termina InventarioService::consultarInventario
+2023/09/13 17:03:16 Termina InventarioHandler::ConsultarInventario
+2023/09/13 17:03:18 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 17:03:18 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 17:03:18 Error al ejecutar la funcion fun_consultapolizas()
+2023/09/13 17:03:18 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 17:09:23 Inicio del api.polizas
+2023/09/13 17:09:23 "api.polizas"
+2023/09/13 17:09:24 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 17:09:24 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 17:09:24 Termina PolizasService::ConsultarPolizasEmpleado
+2023/09/13 17:09:24 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 17:09:24 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 17:09:24 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 17:09:24 Termina PolizasService::ConsultarPolizasEmpleado
+2023/09/13 17:09:24 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 17:09:25 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 17:09:25 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 17:09:25 Termina PolizasService::ConsultarPolizasEmpleado
+2023/09/13 17:09:25 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 17:09:39 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 17:09:39 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 17:09:40 Termina PolizasService::ConsultarPolizasEmpleado
+2023/09/13 17:09:40 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 17:10:35 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 17:10:35 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 17:10:35 Termina PolizasService::ConsultarPolizasEmpleado
+2023/09/13 17:10:35 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 17:10:57 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 17:10:57 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 17:10:57 Termina PolizasService::ConsultarPolizasEmpleado
+2023/09/13 17:10:57 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 17:11:17 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 17:11:17 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 17:11:17 Termina PolizasService::ConsultarPolizasEmpleado
+2023/09/13 17:11:17 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 17:11:47 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 17:11:47 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 17:11:47 Termina PolizasService::ConsultarPolizasEmpleado
+2023/09/13 17:11:47 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 17:11:56 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 17:11:56 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 17:11:56 Termina PolizasService::ConsultarPolizasEmpleado
+2023/09/13 17:11:56 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 17:13:26 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/13 17:13:26 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 17:13:26 Inicio InventarioService::consultarInventario
+2023/09/13 17:13:27 Termina PolizasHandler::ConsultarEmpleados
+2023/09/13 17:13:27 Termina InventarioService::consultarInventario
+2023/09/13 17:13:27 Termina InventarioHandler::ConsultarInventario
+2023/09/13 17:13:28 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/13 17:13:28 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 17:13:28 Inicio InventarioService::consultarInventario
+2023/09/13 17:13:28 Termina PolizasHandler::ConsultarEmpleados
+2023/09/13 17:13:28 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/13 17:13:28 Termina InventarioService::consultarInventario
+2023/09/13 17:13:28 Termina InventarioHandler::ConsultarInventario
+2023/09/13 17:13:28 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 17:13:28 Inicio InventarioService::consultarInventario
+2023/09/13 17:13:28 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 17:13:28 Inicio InventarioService::consultarInventario
+2023/09/13 17:13:28 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 17:13:28 Inicio InventarioService::consultarInventario
+2023/09/13 17:13:28 Termina PolizasHandler::ConsultarEmpleados
+2023/09/13 17:13:28 Termina InventarioService::consultarInventario
+2023/09/13 17:13:28 Termina InventarioHandler::ConsultarInventario
+2023/09/13 17:13:28 Termina InventarioService::consultarInventario
+2023/09/13 17:13:28 Termina InventarioHandler::ConsultarInventario
+2023/09/13 17:13:28 Termina InventarioService::consultarInventario
+2023/09/13 17:13:28 Termina InventarioHandler::ConsultarInventario
+2023/09/13 17:14:58 Inicio InventarioHandler::ConsultarInventario
+2023/09/13 17:14:58 Inicio InventarioService::consultarInventario
+2023/09/13 17:14:58 Termina InventarioService::consultarInventario
+2023/09/13 17:14:58 Termina InventarioHandler::ConsultarInventario
+2023/09/13 17:16:00 Inicio del api.polizas
+2023/09/13 17:16:00 "api.polizas"
+2023/09/13 17:16:13 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 17:16:13 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 17:16:14 Termina PolizasService::ConsultarPolizasEmpleado
+2023/09/13 17:16:14 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 17:16:15 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 17:16:15 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 17:16:15 Termina PolizasService::ConsultarPolizasEmpleado
+2023/09/13 17:16:15 Termina PolizasHandler::ConsultarPolizasEmpleado
