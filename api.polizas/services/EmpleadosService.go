@@ -5,7 +5,6 @@ import (
 	"log"
 	"os"
 
-	"github.com/lib/pq"
 	"main.go/entities"
 )
 
@@ -13,24 +12,25 @@ type Empleado []entities.Empleado
 
 var urlPostgress = os.Getenv("urlPostgress")
 
-func ConsultarEmpleados() entities.Empleados {
+func ConsultarEmpleados() (entities.Empleados, int) {
 	// Conectarse a la base de datos
+	empleados := entities.Empleados{}
+
 	db, err := sql.Open("postgres", urlPostgress)
 	if err != nil {
-		log.Fatal(err)
+		log.Printf("Error al conectarse a la base de datos", err)
+		return empleados, 0
 	}
+
 	defer db.Close()
 
 	// Ejecutar la consulta a la función de PostgreSQL
 	rows, err := db.Query("SELECT id_emp,nombre_emp,apellido_emp,puesto_emp FROM fun_consultaempleados()")
 	if err != nil {
-		log.Printf("Error al conectarse a la base de datos", err)
-		if err, ok := err.(*pq.Error); ok {
-			log.Printf("", err.Message)
-		} //log.Fatal(err)
+		log.Printf("Error al consultar la funcion fun_consultaempleados", err)
+		return empleados, 0
 	}
 	defer rows.Close()
-	empleados := entities.Empleados{}
 
 	// Recorrer los resultados
 	for rows.Next() {
@@ -39,13 +39,10 @@ func ConsultarEmpleados() entities.Empleados {
 		empleados = append(empleados, empleado)
 
 		if err != nil {
-			log.Fatal(err)
+			log.Printf("Error al leer la respuesta de la funcion fun_consultaempleados", err)
+			return empleados, 0
 		}
 	}
 
-	if err = rows.Err(); err != nil {
-		log.Fatal(err)
-	}
-
-	return empleados
+	return empleados, 1
 }
