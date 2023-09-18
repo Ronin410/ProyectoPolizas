@@ -16,6 +16,7 @@ export class MostrarPolizasComponent implements OnInit, AfterViewInit {
   mensaje: string |null = null;
   idEmpleado: any | undefined;
   error = false;
+  okay = false;
   constructor(
     private polizasApi: PolizasApiService,
     private _route: ActivatedRoute,
@@ -37,9 +38,13 @@ export class MostrarPolizasComponent implements OnInit, AfterViewInit {
 
 
   ejecutarServicioPolizas(idEmpleado: string) {
+    console.log(idEmpleado);
     this.polizasApi.getPolizas(idEmpleado).subscribe(
       (data) => {
-        this.polizasData = data.Data;
+          console.log(data)
+          this.okay = true;
+          this.polizasData = data.Data;
+
       },
       (error) => {
         console.error('Error al obtener datos del empleado:', error);

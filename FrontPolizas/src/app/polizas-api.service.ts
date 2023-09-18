@@ -65,7 +65,7 @@ export class PolizasApiService {
 
   postModificarPoliza(poliza:any):  Observable<any>{
     return this.http.post(
-      `${this.apiUrl}/api.polizas/ActualizarPoliza2`, poliza, this.HEADER
+      `${this.apiUrl}/api.polizas/ActualizarPoliza`, poliza, this.HEADER
     );
   }
 
