@@ -40,7 +40,7 @@ export class ModificarPolizaComponent implements OnInit, OnChanges {
     ) {}
   ngOnChanges(changes: SimpleChanges): void {
       this.skuModificar = this.sku;
-
+      this.cantidadModificar = this.cantidad;
   }
 
     ngOnInit(): void {

@@ -14,11 +14,18 @@ func ConsultarInventario(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	log.Printf("Inicio InventarioHandler::ConsultarInventario")
-
-	articulos := services.ConsultarInventario()
-	response.Meta.Status = utilities.StatusOk
-	response.Data = articulos
-	response, _ := json.Marshal(response)
-	fmt.Fprintf(w, string(response))
+	var error = 0
+	articulos, error := services.ConsultarInventario()
+	if error == 1 {
+		response.Meta.Status = utilities.StatusOk
+		response.Data = articulos
+		response, _ := json.Marshal(response)
+		fmt.Fprintf(w, string(response))
+	} else {
+		response.Meta.Status = utilities.StatusFail
+		response.Data = articulos
+		response, _ := json.Marshal(response)
+		fmt.Fprintf(w, string(response))
+	}
 	log.Printf("Termina InventarioHandler::ConsultarInventario")
 }
