@@ -13923,3 +13923,156 @@ created by net/http.(*Server).Serve
 2023/09/13 17:16:15 Inicio PolizasService::ConsultarPolizasEmpleado
 2023/09/13 17:16:15 Termina PolizasService::ConsultarPolizasEmpleado
 2023/09/13 17:16:15 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 17:16:37 Inicio del api.polizas
+2023/09/13 17:16:37 "api.polizas"
+2023/09/13 17:16:39 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 17:16:39 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 17:16:39 Error al ejecutar la funcion fun_consultapolizas()
+2023/09/13 17:16:39 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 17:16:57 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/13 17:16:57 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/13 17:16:58 Error al ejecutar la funcion fun_consultapolizas()
+2023/09/13 17:16:58 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/18 09:46:06 Inicio del api.polizas
+2023/09/18 09:46:06 "api.polizas"
+2023/09/18 09:48:54 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/18 09:48:54 Error al conectarse a la base de datos%!(EXTRA *errors.errorString=sql: unknown driver "postgres" (forgotten import?))
+2023/09/18 09:48:54 Termina PolizasHandler::ConsultarEmpleados
+2023/09/18 09:48:54 Inicio InventarioHandler::ConsultarInventario
+2023/09/18 09:48:54 Inicio InventarioService::consultarInventario
+2023/09/18 09:48:54 Error al conectarse a la base de datos
+2023/09/18 09:48:54 Termina InventarioHandler::ConsultarInventario
+2023/09/18 09:48:54 Inicio InventarioHandler::ConsultarInventario
+2023/09/18 09:48:54 Inicio InventarioService::consultarInventario
+2023/09/18 09:48:54 Error al conectarse a la base de datos
+2023/09/18 09:48:54 Termina InventarioHandler::ConsultarInventario
+2023/09/18 09:49:00 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/18 09:49:00 Error al conectarse a la base de datos%!(EXTRA *errors.errorString=sql: unknown driver "postgres" (forgotten import?))
+2023/09/18 09:49:00 Termina PolizasHandler::ConsultarEmpleados
+2023/09/18 09:49:00 Inicio InventarioHandler::ConsultarInventario
+2023/09/18 09:49:00 Inicio InventarioService::consultarInventario
+2023/09/18 09:49:00 Error al conectarse a la base de datos
+2023/09/18 09:49:00 Termina InventarioHandler::ConsultarInventario
+2023/09/18 09:49:00 Inicio InventarioHandler::ConsultarInventario
+2023/09/18 09:49:00 Inicio InventarioService::consultarInventario
+2023/09/18 09:49:00 Error al conectarse a la base de datos
+2023/09/18 09:49:00 Termina InventarioHandler::ConsultarInventario
+2023/09/18 09:49:09 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/18 09:49:09 Error al conectarse a la base de datos%!(EXTRA *errors.errorString=sql: unknown driver "postgres" (forgotten import?))
+2023/09/18 09:49:09 Termina PolizasHandler::ConsultarEmpleados
+2023/09/18 09:49:09 Inicio InventarioHandler::ConsultarInventario
+2023/09/18 09:49:09 Inicio InventarioService::consultarInventario
+2023/09/18 09:49:09 Error al conectarse a la base de datos
+2023/09/18 09:49:09 Termina InventarioHandler::ConsultarInventario
+2023/09/18 09:49:09 Inicio InventarioHandler::ConsultarInventario
+2023/09/18 09:49:09 Inicio InventarioService::consultarInventario
+2023/09/18 09:49:09 Error al conectarse a la base de datos
+2023/09/18 09:49:09 Termina InventarioHandler::ConsultarInventario
+2023/09/18 09:49:20 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/18 09:49:20 Error al conectarse a la base de datos%!(EXTRA *errors.errorString=sql: unknown driver "postgres" (forgotten import?))
+2023/09/18 09:49:20 Termina PolizasHandler::ConsultarEmpleados
+2023/09/18 09:49:20 Inicio InventarioHandler::ConsultarInventario
+2023/09/18 09:49:20 Inicio InventarioService::consultarInventario
+2023/09/18 09:49:20 Error al conectarse a la base de datos
+2023/09/18 09:49:20 Termina InventarioHandler::ConsultarInventario
+2023/09/18 09:49:24 Inicio InventarioHandler::ConsultarInventario
+2023/09/18 09:49:24 Inicio InventarioService::consultarInventario
+2023/09/18 09:49:24 Error al conectarse a la base de datos
+2023/09/18 09:49:24 Termina InventarioHandler::ConsultarInventario
+2023/09/18 09:50:30 Inicio del api.polizas
+2023/09/18 09:50:30 "api.polizas"
+2023/09/18 09:50:37 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/18 09:57:20 Error al conectarse a la base de datos%!(EXTRA *errors.errorString=sql: unknown driver "postgres" (forgotten import?))
+2023/09/18 09:57:20 Inicio InventarioHandler::ConsultarInventario
+2023/09/18 09:57:20 Inicio InventarioHandler::ConsultarInventario
+2023/09/18 09:57:20 Inicio InventarioService::consultarInventario
+2023/09/18 09:57:20 Error al conectarse a la base de datos
+2023/09/18 09:57:20 Inicio InventarioService::consultarInventario
+2023/09/18 09:57:20 Error al conectarse a la base de datos
+2023/09/18 09:57:20 Termina InventarioHandler::ConsultarInventario
+2023/09/18 09:57:20 Termina InventarioHandler::ConsultarInventario
+2023/09/18 09:57:20 Termina PolizasHandler::ConsultarEmpleados
+2023/09/18 10:05:27 Inicio del api.polizas
+2023/09/18 10:05:27 "api.polizas"
+2023/09/18 10:06:02 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/18 10:08:07 Error al conectarse a la base de datos%!(EXTRA *errors.errorString=sql: unknown driver "postgres" (forgotten import?))
+2023/09/18 10:08:07 Inicio InventarioHandler::ConsultarInventario
+2023/09/18 10:08:07 Inicio InventarioService::consultarInventario
+2023/09/18 10:08:07 Error al conectarse a la base de datos
+2023/09/18 10:08:07 Termina PolizasHandler::ConsultarEmpleados
+2023/09/18 10:08:07 Termina InventarioHandler::ConsultarInventario
+2023/09/18 10:08:07 Inicio InventarioHandler::ConsultarInventario
+2023/09/18 10:08:07 Inicio InventarioService::consultarInventario
+2023/09/18 10:08:07 Error al conectarse a la base de datos
+2023/09/18 10:08:07 Termina InventarioHandler::ConsultarInventario
+2023/09/18 10:09:00 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/18 10:09:03 Error al conectarse a la base de datos%!(EXTRA *errors.errorString=sql: unknown driver "postgres" (forgotten import?))
+2023/09/18 10:09:03 Termina PolizasHandler::ConsultarEmpleados
+2023/09/18 10:31:48 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/18 10:32:08 Error al conectarse a la base de datos%!(EXTRA *errors.errorString=sql: unknown driver "postgres" (forgotten import?))
+2023/09/18 10:32:08 Termina PolizasHandler::ConsultarEmpleados
+2023/09/18 10:32:46 Inicio del api.polizas
+2023/09/18 10:32:46 "api.polizas"
+2023/09/18 10:32:58 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/18 10:52:52 Error al conectarse a la base de datos%!(EXTRA *errors.errorString=sql: unknown driver "postgres" (forgotten import?))
+2023/09/18 10:52:52 Termina PolizasHandler::ConsultarEmpleados
+2023/09/18 10:53:23 Inicio del api.polizas
+2023/09/18 10:53:23 "api.polizas"
+2023/09/18 10:53:35 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/18 10:59:45 sql: unknown driver "postgres" (forgotten import?)
+2023/09/18 10:59:57 Inicio del api.polizas
+2023/09/18 10:59:57 "api.polizas"
+2023/09/18 11:01:53 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/18 11:01:53 sql: unknown driver "postgres" (forgotten import?)
+2023/09/18 11:02:11 Inicio del api.polizas
+2023/09/18 11:02:11 "api.polizas"
+2023/09/18 11:33:42 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/18 11:33:42 sql: unknown driver "postgres" (forgotten import?)
+2023/09/18 11:34:11 Inicio del api.polizas
+2023/09/18 11:34:11 "api.polizas"
+2023/09/18 11:34:16 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/18 11:34:21 sql: unknown driver "postgres" (forgotten import?)
+2023/09/18 11:46:28 Inicio del api.polizas
+2023/09/18 11:46:28 "api.polizas"
+2023/09/18 11:46:44 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/18 11:46:44 Error al conectarse a la base de datos%!(EXTRA *errors.errorString=sql: unknown driver "postgres" (forgotten import?))
+2023/09/18 11:46:44 Termina PolizasHandler::ConsultarEmpleados
+2023/09/18 11:47:07 Inicio del api.polizas
+2023/09/18 11:47:08 "api.polizas"
+2023/09/18 11:47:08 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/18 11:51:08 Error al conectarse a la base de datos%!(EXTRA *errors.errorString=sql: unknown driver "postgres" (forgotten import?))
+2023/09/18 11:51:08 Termina PolizasHandler::ConsultarEmpleados
+2023/09/18 12:01:43 Inicio del api.polizas
+2023/09/18 12:01:43 api.polizas
+2023/09/18 12:01:49 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/18 12:01:49 Error al conectarse a la base de datos%!(EXTRA *errors.errorString=sql: unknown driver "postgres" (forgotten import?))
+2023/09/18 12:01:49 Termina PolizasHandler::ConsultarEmpleados
+2023/09/18 12:01:50 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/18 12:01:50 Error al conectarse a la base de datos%!(EXTRA *errors.errorString=sql: unknown driver "postgres" (forgotten import?))
+2023/09/18 12:01:50 Termina PolizasHandler::ConsultarEmpleados
+2023/09/18 12:09:22 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/18 12:09:22 Error al conectarse a la base de datos%!(EXTRA *errors.errorString=sql: unknown driver "postgres" (forgotten import?))
+2023/09/18 12:09:22 Termina PolizasHandler::ConsultarEmpleados
+2023/09/18 12:09:23 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/18 12:09:23 Error al conectarse a la base de datos%!(EXTRA *errors.errorString=sql: unknown driver "postgres" (forgotten import?))
+2023/09/18 12:09:23 Termina PolizasHandler::ConsultarEmpleados
+2023/09/18 12:10:53 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/18 12:10:53 Error al conectarse a la base de datos%!(EXTRA *errors.errorString=sql: unknown driver "postgres" (forgotten import?))
+2023/09/18 12:10:53 Termina PolizasHandler::ConsultarEmpleados
+2023/09/18 12:10:55 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/18 12:10:55 Error al conectarse a la base de datos%!(EXTRA *errors.errorString=sql: unknown driver "postgres" (forgotten import?))
+2023/09/18 12:10:55 Termina PolizasHandler::ConsultarEmpleados
+2023/09/18 12:22:19 Inicio del api.polizas
+2023/09/18 12:22:19 "api.polizas"
+2023/09/18 12:33:10 Inicio del api.polizas
+2023/09/18 12:33:10 "api.polizas"
+2023/09/18 12:33:20 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/18 12:33:20 Error al conectarse a la base de datos%!(EXTRA *errors.errorString=sql: unknown driver "postgres" (forgotten import?))
+2023/09/18 12:33:20 Termina PolizasHandler::ConsultarEmpleados
+2023/09/18 12:41:56 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/18 12:41:56 Error al conectarse a la base de datos%!(EXTRA *errors.errorString=sql: unknown driver "postgres" (forgotten import?))
+2023/09/18 12:41:56 Termina PolizasHandler::ConsultarEmpleados
+2023/09/18 12:49:11 Inicio del api.polizas
+2023/09/18 12:49:12 "api.polizas"
+2023/09/18 12:49:54 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/18 12:49:54 Termina PolizasHandler::ConsultarEmpleados

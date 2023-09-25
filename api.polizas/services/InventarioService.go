@@ -3,6 +3,8 @@ package services
 import (
 	"database/sql"
 	"log"
+
+	"github.com/lib/pq"
 	"main.go/entities"
 )
 
@@ -14,6 +16,9 @@ func ConsultarInventario() (entities.Articulos, int) {
 	db, err := sql.Open("postgres", urlPostgress)
 	if err != nil {
 		log.Printf("Error al conectarse a la base de datos")
+		if err, ok := err.(*pq.Error); ok {
+			log.Printf("", err.Message)
+		}
 		return articulos, 0
 	}
 	defer db.Close()

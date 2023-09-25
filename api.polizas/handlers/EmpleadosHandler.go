@@ -20,6 +20,23 @@ func ConsultarEmpleados(w http.ResponseWriter, r *http.Request) {
 	log.Printf("Inicio PolizasHandler::ConsultarEmpleados")
 	var error = 0
 	empleados, error := services.ConsultarEmpleados()
+	fmt.Println(error)
+	response.Meta.Status = utilities.StatusOk
+	response.Data = empleados
+	response, _ := json.Marshal(response)
+	fmt.Fprintf(w, string(response))
+	log.Printf("Termina PolizasHandler::ConsultarEmpleados")
+
+}
+
+/*
+func ConsultarEmpleados(w http.ResponseWriter, r *http.Request) {
+	if r.Method == "OPTIONS" {
+		return
+	}
+	log.Printf("Inicio PolizasHandler::ConsultarEmpleados")
+	var error = 0
+	empleados, error := services.ConsultarEmpleados()
 
 	if error == 1 {
 		response.Meta.Status = utilities.StatusOk
@@ -34,4 +51,4 @@ func ConsultarEmpleados(w http.ResponseWriter, r *http.Request) {
 	}
 	log.Printf("Termina PolizasHandler::ConsultarEmpleados")
 
-}
+}*/
