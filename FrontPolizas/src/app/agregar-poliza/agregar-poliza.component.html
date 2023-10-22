@@ -23,6 +23,7 @@
     </div>
     <div class="input-agregar">
         <p> Nombre Cliente:  </p>   <input id="nombre-cliente" name="nombre-cliente" maxlength="50" placeholder="Ingrese el nombre del cliente"
+        oninput="this.value = this.value.replace(/[^a-zA-Z ]/,'')"
         (keypress)="onKeypressEvent($event)">
     </div>
     <div *ngIf="vacios == true" >

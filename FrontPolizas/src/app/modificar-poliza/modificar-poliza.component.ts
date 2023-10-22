@@ -32,6 +32,8 @@ export class ModificarPolizaComponent implements OnInit, OnChanges {
     vacios = false;
     cantidadModificar:any;
     nombreClienteModificar:any;
+    cantidadModificarInput :any;
+
     constructor(
       private polizasApi: PolizasApiService,
       private Empleados: EmpleadosComponent,
@@ -61,19 +63,18 @@ export class ModificarPolizaComponent implements OnInit, OnChanges {
 
     ModificarPoliza(){
     this.skuModificacion = document.getElementById("skuModificar") as HTMLInputElement;
-    this.cantidadModificar = document.getElementById("cantidadModificar") as HTMLInputElement;
+    this.cantidadModificarInput = document.getElementById("cantidadModificar") as HTMLInputElement;
     this.nombreClienteModificar = document.getElementById("nombreClienteModificar") as HTMLInputElement;
 
-    if( this.cantidadModificar.value != "" && this.nombreClienteModificar.value != "" )
+    if( this.cantidadModificarInput.value != "" && this.nombreClienteModificar.value != "" )
     {
-      if(this.cantidadModificar.value >0){
+      if(this.cantidadModificarInput.value >0){
         this.cantidadMin = false;
-      
         var poliza = {
         "idpoliza" : +this.idpoliza,
           "empleadogenero":+this.empleadoGenero,
           "sku":+this.skuModificacion.value,
-          "cantidad":+this.cantidadModificar.value,
+          "cantidad":+this.cantidadModificarInput.value,
           "nombrecliente": this.nombreClienteModificar.value
       }
 
