@@ -29,6 +29,7 @@
         <div class="input-agregar">
             <p> Nombre Cliente:  </p> 
             <input id="nombreClienteModificar" name="nombreClienteModificar" [value]="nombreCliente" maxlength="50" placeholder="Ingrese el nombre del cliente"
+            oninput="this.value = this.value.replace(/[^a-zA-Z ]/,'')"
             (keypress)="onKeypressEvent($event)">
         </div>
         <div *ngIf="vacios == true" >
@@ -44,9 +45,7 @@
             </div>
         </div>    
     </div>
-</div>
-
-
+</div>  
 
 <ng-template #nodatos>
     <div class="input-agregar">
