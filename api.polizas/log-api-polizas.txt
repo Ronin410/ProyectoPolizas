@@ -12768,3 +12768,135 @@
 2023/09/12 10:40:22 Inicio del api.polizas
 2023/09/12 10:40:22 api.polizas
 2023/09/12 10:40:22 listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+2023/09/18 12:32:23 Inicio del api.polizas
+2023/09/18 12:32:24 "api.polizas"
+2023/09/18 12:33:04 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/18 12:33:04 Termina PolizasHandler::ConsultarEmpleados
+2023/09/18 12:41:51 Inicio del api.polizas
+2023/09/18 12:41:51 "api.polizas"
+2023/09/18 12:41:59 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/18 12:41:59 Termina PolizasHandler::ConsultarEmpleados
+2023/09/18 12:43:58 Inicio del api.polizas
+2023/09/18 12:43:58 "api.polizas"
+2023/09/18 12:44:15 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/18 12:44:15 Error al conectarse a la base de datos%!(EXTRA *errors.errorString=sql: unknown driver "postgres" (forgotten import?))
+2023/09/18 12:44:15 Termina PolizasHandler::ConsultarEmpleados
+2023/09/18 12:44:17 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/18 12:44:17 Error al conectarse a la base de datos%!(EXTRA *errors.errorString=sql: unknown driver "postgres" (forgotten import?))
+2023/09/18 12:44:17 Termina PolizasHandler::ConsultarEmpleados
+2023/09/18 12:45:03 Inicio del api.polizas
+2023/09/18 12:45:03 "api.polizas"
+2023/09/18 12:45:46 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/18 12:46:06 Error al conectarse a la base de datos%!(EXTRA *errors.errorString=sql: unknown driver "postgres" (forgotten import?))
+2023/09/18 12:46:06 Termina PolizasHandler::ConsultarEmpleados
+2023/09/18 12:46:34 Inicio del api.polizas
+2023/09/18 12:46:34 "api.polizas"
+2023/09/18 12:46:35 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/18 12:47:36 Inicio del api.polizas
+2023/09/18 12:47:36 "api.polizas"
+2023/09/18 12:47:39 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/18 12:47:39 Error al conectarse a la base de datos%!(EXTRA *errors.errorString=sql: unknown driver "postgres" (forgotten import?))
+2023/09/18 12:47:39 Termina PolizasHandler::ConsultarEmpleados
+2023/09/18 12:47:41 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/18 12:47:41 Error al conectarse a la base de datos%!(EXTRA *errors.errorString=sql: unknown driver "postgres" (forgotten import?))
+2023/09/18 12:47:41 Termina PolizasHandler::ConsultarEmpleados
+2023/09/18 12:48:11 Inicio del api.polizas
+2023/09/18 12:48:11 "api.polizas"
+2023/09/18 12:48:13 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/18 12:48:14 Termina PolizasHandler::ConsultarEmpleados
+2023/09/18 12:48:17 Inicio InventarioHandler::ConsultarInventario
+2023/09/18 12:48:17 Inicio InventarioService::consultarInventario
+2023/09/18 12:48:17 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/18 12:48:17 Inicio InventarioHandler::ConsultarInventario
+2023/09/18 12:48:17 Inicio InventarioService::consultarInventario
+2023/09/18 12:48:17 Termina InventarioService::consultarInventario
+2023/09/18 12:48:17 Termina InventarioHandler::ConsultarInventario
+2023/09/18 12:48:17 Termina PolizasHandler::ConsultarEmpleados
+2023/09/18 12:48:17 Termina InventarioService::consultarInventario
+2023/09/18 12:48:17 Termina InventarioHandler::ConsultarInventario
+2023/09/18 12:54:15 Inicio del api.polizas
+2023/09/18 12:54:15 "api.polizas"
+2023/09/18 12:54:16 listen tcp :3001: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+2023/09/18 12:54:29 Inicio del api.polizas
+2023/09/18 12:54:29 "api.polizas"
+2023/09/18 12:54:29 listen tcp :3001: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+2023/09/18 12:55:13 Inicio del api.polizas
+2023/09/18 12:55:13 "api.polizas"
+2023/09/18 12:55:23 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/18 12:55:24 Termina PolizasHandler::ConsultarEmpleados
+2023/09/18 12:55:39 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/18 12:55:39 Inicio InventarioHandler::ConsultarInventario
+2023/09/18 12:55:39 Inicio InventarioService::consultarInventario
+2023/09/18 12:55:39 Termina PolizasHandler::ConsultarEmpleados
+2023/09/18 12:55:39 Termina InventarioService::consultarInventario
+2023/09/18 12:55:39 Termina InventarioHandler::ConsultarInventario
+2023/09/18 12:55:39 Inicio InventarioHandler::ConsultarInventario
+2023/09/18 12:55:39 Inicio InventarioService::consultarInventario
+2023/09/18 12:55:40 Termina InventarioService::consultarInventario
+2023/09/18 12:55:40 Termina InventarioHandler::ConsultarInventario
+2023/09/18 12:55:40 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/18 12:55:40 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/18 12:55:40 Termina PolizasService::ConsultarPolizasEmpleado
+2023/09/18 12:55:40 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/18 12:55:43 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/18 12:55:43 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/18 12:55:43 Termina PolizasService::ConsultarPolizasEmpleado
+2023/09/18 12:55:43 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/18 12:55:44 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/18 12:55:44 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/18 12:55:44 Termina PolizasService::ConsultarPolizasEmpleado
+2023/09/18 12:55:44 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/18 12:55:47 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/18 12:55:47 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/18 12:55:47 Termina PolizasService::ConsultarPolizasEmpleado
+2023/09/18 12:55:47 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/18 12:55:51 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/18 12:55:51 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/18 12:55:52 Termina PolizasService::ConsultarPolizasEmpleado
+2023/09/18 12:55:52 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/18 12:55:53 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/18 12:55:53 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/18 12:55:53 Termina PolizasService::ConsultarPolizasEmpleado
+2023/09/18 12:55:53 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/18 12:55:57 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/18 12:55:57 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/18 12:55:57 Termina PolizasService::ConsultarPolizasEmpleado
+2023/09/18 12:55:57 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/18 12:55:58 Inicio PolizasHandler::EliminarPoliza
+2023/09/18 12:55:58 Inicia PolizasService::EliminarPoliza
+2023/09/18 12:55:58 Termina PolizasService::EliminarPoliza
+2023/09/18 12:55:58 Inicio PolizasHandler::EliminarPoliza
+2023/09/18 12:55:58 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/18 12:55:58 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/18 12:55:59 Termina PolizasService::ConsultarPolizasEmpleado
+2023/09/18 12:55:59 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/18 12:56:00 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/18 12:56:00 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/18 12:56:00 Termina PolizasService::ConsultarPolizasEmpleado
+2023/09/18 12:56:00 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/18 12:56:10 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/18 12:56:10 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/18 12:56:10 Termina PolizasService::ConsultarPolizasEmpleado
+2023/09/18 12:56:10 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/18 12:56:11 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/18 12:56:11 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/18 12:56:11 Termina PolizasService::ConsultarPolizasEmpleado
+2023/09/18 12:56:11 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/18 12:56:13 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/18 12:56:13 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/18 12:56:13 Termina PolizasService::ConsultarPolizasEmpleado
+2023/09/18 12:56:13 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/18 12:56:14 Inicio PolizasHandler::ConsultarPolizasEmpleado
+2023/09/18 12:56:14 Inicio PolizasService::ConsultarPolizasEmpleado
+2023/09/18 12:56:14 Termina PolizasService::ConsultarPolizasEmpleado
+2023/09/18 12:56:14 Termina PolizasHandler::ConsultarPolizasEmpleado
+2023/09/19 09:15:41 Inicio InventarioHandler::ConsultarInventario
+2023/09/19 09:15:41 Inicio InventarioService::consultarInventario
+2023/09/19 09:15:41 Inicio PolizasHandler::ConsultarEmpleados
+2023/09/19 09:15:41 Termina PolizasHandler::ConsultarEmpleados
+2023/09/19 09:15:41 Termina InventarioService::consultarInventario
+2023/09/19 09:15:41 Termina InventarioHandler::ConsultarInventario
+2023/09/19 09:15:41 Inicio InventarioHandler::ConsultarInventario
+2023/09/19 09:15:41 Inicio InventarioService::consultarInventario
+2023/09/19 09:15:42 Termina InventarioService::consultarInventario
+2023/09/19 09:15:42 Termina InventarioHandler::ConsultarInventario
