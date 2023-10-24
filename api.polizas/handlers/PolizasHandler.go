@@ -85,9 +85,9 @@ func AgregarPoliza(w http.ResponseWriter, r *http.Request) {
 		} else if respuesta == 2 {
 			mensaje = "El empleado a guardar no existe"
 		} else if respuesta == 3 {
-			mensaje = "El sku a registrar no existe"
-		} else if respuesta == 4 {
 			mensaje = "El sku a registrar no tiene inventario disponible"
+		} else if respuesta == 4 {
+			mensaje = "El sku a registrar no existe"
 		}
 		log.Printf("Error al guardar la poliza del cliente " + poliza.NombreCliente)
 		response.Meta.Status = utilities.StatusFail
