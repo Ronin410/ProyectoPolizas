@@ -91,6 +91,7 @@ export class EmpleadosComponent implements OnInit,AfterViewInit {
         (response) => {
           this.token = response.data;
           localStorage.setItem('token', response.data.token);
+          this.consultarEmpleado();
         },
         (error) => {
           console.error('Error al obtener datos:', error);

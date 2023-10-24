@@ -2,6 +2,7 @@ package main
 
 import (
 	"encoding/json"
+	"fmt"
 	"io/ioutil"
 	"log"
 	"net/http"
@@ -37,6 +38,13 @@ func main() {
 	mux.HandleFunc(path_api+"/ActualizarPoliza", handlers.ActualizarPoliza).Methods("POST", "OPTIONS")
 	mux.HandleFunc(path_api+"/EliminarPolizas", handlers.EliminarPoliza).Methods("POST", "OPTIONS")
 	mux.HandleFunc(path_api+"/ConsultarInventario", handlers.ConsultarInventario).Methods("GET", "OPTIONS")
+	mux.HandleFunc(path_api+"/AgregarEmpleado", handlers.AgregarEmpleado).Methods("POST", "OPTIONS")
+	mux.HandleFunc(path_api+"/AgregarInventario", handlers.AgregarInventario).Methods("POST", "OPTIONS")
+	mux.HandleFunc(path_api+"/ModificarInventario", handlers.ModificarInventario).Methods("POST", "OPTIONS")
+	mux.HandleFunc(path_api+"/ModificarEmpleado", handlers.ModificarEmpleado).Methods("POST", "OPTIONS")
+	mux.HandleFunc(path_api+"/EliminarInventario", handlers.EliminarInventario).Methods("POST", "OPTIONS")
+	mux.HandleFunc(path_api+"/EliminarEmpleado", handlers.EliminarEmpleado).Methods("POST", "OPTIONS")
+
 	log.Fatal(http.ListenAndServe(":3000", mux))
 
 }
@@ -97,6 +105,8 @@ func Token(next http.Handler) http.Handler {
 
 		if responseToken.Meta.Status == "FAIL" || responseToken.Meta.Status == "" {
 			log.Printf("El estatus de la peticion fue", status)
+			responseToken, _ := json.Marshal(responseToken)
+			fmt.Fprintf(w, string(responseToken))
 			return
 		}
 		next.ServeHTTP(w, r)
