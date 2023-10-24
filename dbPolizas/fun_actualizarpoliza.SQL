@@ -20,7 +20,7 @@ DECLARE
 	cantidadanterior INTEGER DEFAULT 0;
 	icantidadactualizar INTEGER DEFAULT 0;
 	cSql TEXT;
-	cantidadinv	SMALLINT DEFAULT 0;
+	cantidadinv	INTEGER DEFAULT 0;
 	-----------------------------------
 BEGIN
 	IF EXISTS(SELECT idpoliza FROM ctl_polizas WHERE idpoliza = id_poliza) THEN

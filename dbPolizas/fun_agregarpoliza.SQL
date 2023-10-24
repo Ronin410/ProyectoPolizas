@@ -15,11 +15,11 @@ DECLARE
 	icantidad ALIAS for $3;
 	snombrecliente ALIAS for $4;
 	resultado	SMALLINT DEFAULT 0;
-	cantidadinv	SMALLINT DEFAULT 0;
+	cantidadinv	INTEGER  DEFAULT 0;
 	-----------------------------------
 BEGIN
-	IF EXISTS(SELECT sku FROM ctl_inventario WHERE cantidad >=icantidad) THEN
-		IF EXISTS(SELECT sku FROM ctl_inventario WHERE sku=isku) THEN
+	IF EXISTS(SELECT sku FROM ctl_inventario WHERE sku=isku) THEN
+		IF EXISTS(SELECT sku FROM ctl_inventario WHERE cantidad >=icantidad AND sku=isku) THEN
 			IF EXISTS(SELECT idempleado FROM ctl_empleado WHERE idempleado = iempleadogenero) THEN 
 				INSERT INTO ctl_polizas(empleadogenero,sku,cantidad,fechamovto,fechacambio,nombrecliente) 
 				VALUES (iempleadogenero, isku, icantidad, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP,snombrecliente);
